@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>西貢區中學全景 2026｜中一收生・班級結構・學校特色・社交宣傳</title>
+<meta name="description" content="整合中學概覽2025/26、教育局中學一覽表及26間西貢區中學官網，分析各校中一學額、各級班數、辦學特色、社交平台與宣傳策略。">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎒</text></svg>">
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Sai Kung District · Secondary Schools 2026</span>
+    <h1>西貢區中學全景：<br><em>中一收生</em>、班級結構與<em>宣傳策略</em></h1>
+    <p class="lede">把 26 間西貢區（將軍澳、西貢市中心、坑口、調景嶺）中學的官方資料放在同一張桌上：中一學額怎樣分、六級班數怎樣排、學校靠什麼定位、以及它們在社交媒體上的實際曝光。</p>
+    <div class="hero-meta">
+      <span>校情資料：<b>中學概覽 2025/2026</b></span>
+      <span>中一學額：<b>2026/27 學年</b></span>
+      <span>官網擷取：<b id="meta-date">2026-11-01</b></span>
+      <span>學校數目：<b>26</b></span>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="wrap">
+  <div class="kpis" id="kpis"></div>
+</div>
+
+<section id="supply">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="tag-label">Supply</span>
+        <h2>中一學額與班級結構</h2>
+        <p>官津中學的中一學額由「自行分配學位」與「統一派位學額」組成，以下為教育局 2026/27 學年公布數字；直資學校自訂收生，不參與統一派位，故以中一班數呈現。</p>
+      </div>
+    </div>
+    <div class="charts">
+      <div class="panel">
+        <h3>各校已公布中一學額（官津中學）</h3>
+        <p class="sub">自行分配學位 ＋ 統一派位學額（含直屬／聯繫學額）</p>
+        <div class="hbars" id="chart-s1"></div>
+      </div>
+      <div class="panel">
+        <h3>社交平台覆蓋</h3>
+        <p class="sub">26 間學校中，設有官方帳號的學校數目</p>
+        <div class="vbars" id="chart-social"></div>
+        <div class="panel" style="border:none;box-shadow:none;padding:14px 0 0;background:transparent">
+          <p class="sub" style="margin:0">直資 7 校的中一班數合共 <b id="dss-classes">—</b> 班；官津 19 校中一學額合共 <b id="aided-places">—</b> 個。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="list" style="padding-top:8px">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="tag-label">Directory</span>
+        <h2>26 間學校總表</h2>
+        <p>點擊校名查看辦學宗旨、收生準則、語文政策與宣傳觀察。欄位可排序。</p>
+      </div>
+    </div>
+    <div class="filters">
+      <input type="search" id="q" placeholder="搜尋學校名稱、宗教、特色…" aria-label="搜尋學校">
+      <select id="f-type"><option value="">全部類別</option><option>官立</option><option>資助</option><option>直資</option></select>
+      <select id="f-religion"><option value="">全部宗教</option></select>
+      <select id="f-strategy"><option value="">全部宣傳型態</option></select>
+      <button class="chip" id="f-social" aria-pressed="false">只顯示有社交平台</button>
+      <span class="count" id="count"></span>
+    </div>
+    <div class="tablewrap">
+      <table id="tbl">
+        <thead>
+          <tr>
+            <th data-k="name">學校<span class="ar">▲▼</span></th>
+            <th data-k="type">類別</th>
+            <th data-k="religion">宗教</th>
+            <th data-k="s1Classes">中一班數</th>
+            <th data-k="s1total">中一學額</th>
+            <th data-k="totalClasses">六級總班數</th>
+            <th>班級結構</th>
+            <th data-k="channels">平台</th>
+            <th data-k="strategy">宣傳型態</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="cards" style="padding-top:12px">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="tag-label">Profiles</span>
+        <h2>學校速覽卡</h2>
+        <p>每張卡列出定位摘要、特色標籤、關鍵數字與社交渠道。</p>
+      </div>
+    </div>
+    <div class="cards" id="cards-grid"></div>
+  </div>
+</section>
+
+<section id="analysis">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="tag-label">Analysis</span>
+        <h2>觀察與建議</h2>
+        <p>以下分析由上述官方數字與官網／社交渠道的公開資料推導，屬描述性觀察，不代表學校官方立場。</p>
+      </div>
+    </div>
+    <div class="analysis">
+      <div class="note">
+        <h4><span>1</span>供給高度集中於將軍澳新市鎮</h4>
+        <p id="a1"></p>
+        <ul>
+          <li>19 間官津中學合共 <b id="a1a"></b> 個已公布中一學額，平均每校約 <b id="a1b"></b> 個。</li>
+          <li>7 間直資中學全部位於將軍澳／調景嶺，合共 <b id="a1c"></b> 班中一，收生自訂、不經統一派位。</li>
+          <li>西貢市中心僅西貢崇真天主教學校（中學部）一所津貼中學，中一衹有 <b>2</b> 班、<b>70</b> 個學額，區內選擇明顯較少。</li>
+        </ul>
+      </div>
+      <div class="note">
+        <h4><span>2</span>「四班制」是主流，弱勢校已見縮班</h4>
+        <p id="a2"></p>
+        <ul>
+          <li>中一開 4 班的學校有 <b id="a2a"></b> 間，3 班 <b id="a2b"></b> 間，2 班 <b id="a2c"></b> 間，5 班 <b id="a2d"></b> 間。</li>
+          <li>個別學校出現「上班級斷層」：中一收 2 班、中二起 3 班的例子，反映近年收生壓力。</li>
+        </ul>
+      </div>
+      <div class="note">
+        <h4><span>3</span>語言政策是最清晰的分界線</h4>
+        <p id="a3"></p>
+        <ul>
+          <li>官津校中有 <b>3</b> 間以英語為主要授課語言；另有 4 間以普通話教授中國語文（景嶺、王華湘、優才、羅氏），成為另一條差異化路線。</li>
+          <li>母語授課學校則以英語小組教學、外籍教師、英語延展活動及英語早會補位。</li>
+        </ul>
+      </div>
+      <div class="note">
+        <h4><span>4</span>社交宣傳呈三層結構</h4>
+        <p id="a4"></p>
+        <ul>
+          <li>Facebook <b id="a4a"></b> 間、Instagram <b id="a4b"></b> 間、YouTube <b id="a4c"></b> 間、小紅書 <b id="a4d"></b> 間。</li>
+          <li><b>5</b> 間學校（宣基、羅氏、優才、真道、張沛松）官網未見任何社交平台連結，對外溝通集中於官網與實體活動。</li>
+        </ul>
+      </div>
+      <div class="note">
+        <h4><span>5</span>宣傳策略的四種典型</h4>
+        <ul>
+          <li><b>多渠道影音型（3 個平台以上）</b>：以短片、活動花絮維持曝光，多為直資或收生競爭較激烈的學校。</li>
+          <li><b>雙平台活動型</b>：FB／IG 配合開放日、升中資訊日，屬最常見的津貼中學配置。</li>
+          <li><b>單一平台型</b>：只保留 YouTube 或 FB，內容更新頻率偏低，宣傳依賴口碑。</li>
+          <li><b>官網獨守型</b>：完全不做社交，優點是資訊集中，缺點是家長在搜尋引擎與社交平台上幾乎「找不到學校的聲音」。</li>
+        </ul>
+      </div>
+      <div class="note" style="grid-column:1/-1">
+        <h4><span>6</span>給學校與家長的建議</h4>
+        <div class="grid2">
+          <div>
+            <p><b>給學校</b></p>
+            <ul>
+              <li>收生壓力集中的 2–3 班學校，宜把「小班照顧」、「英語增潤」、「升學增值」轉化為可驗證的短片內容，而非只放活動相簿。</li>
+              <li>已有 3 個平台的學校，問題不在渠道而在頻率與分工：建議 Facebook 負責家長公告、Instagram 負責學生生活、YouTube 負責 3–5 分鐘的課程與校園導覽。</li>
+              <li>小紅書已見兩校使用，對跨境生源是低成本試驗場，但需同步處理簡體內容與私隱合規。</li>
+            </ul>
+          </div>
+          <div>
+            <p><b>給家長</b></p>
+            <ul>
+              <li>先看「中一學額 ÷ 班數」推斷每班人數，再看自行分配學位的收生比重（成績 vs 面試），這比單看社交聲量可靠。</li>
+              <li>直資學校不經統一派位，報名與面試時間普遍早於官津，需另備時間表。</li>
+              <li>社交平台只反映宣傳能力，不等於教學質素；宜對照中學概覽的語文政策、師資比例與課程結構。</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="method" style="padding-top:8px">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="tag-label">Method &amp; Sources</span>
+        <h2>資料方法與限制</h2>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="grid2">
+        <div><span>學校名單與校情</span><b>家庭與學校合作事宜委員會《中學概覽 2025/2026》</b>（班級結構、辦學宗旨、收生準則、語文政策）</div>
+        <div><span>中一學額</span><b>教育局《2024/2026 中學學位分配辦法——中學一覽表（西貢區）》</b>及《2026 年度中一自行分配學位手冊》</div>
+        <div><span>社交平台</span><b>各校官方網站 2026-11-01 擷取</b>；官網未列出者，以公開搜尋結果補充並標示</div>
+        <div><span>宣傳型態</span><b>按平台數目分類</b>（3＋／2／1／0），並參考官網是否設開放日、資訊日、校訊及影片欄目</div>
+      </div>
+      <p class="sub" style="margin:18px 0 0;line-height:1.8">
+        限制一：中一學額為「自行分配學位＋統一派位學額」，未計留班位及後補／叩門取錄，與實際入學人數可能略有差異。<br>
+        限制二：直資學校自訂收生，沒有統一中一學額公布，本表只列班數，不作推算。<br>
+        限制三：社交平台帳號以官網連結為主要證據；部分學校可能營運未在官網公開的帳號，或由學生組織、校友會營運，本表已分開標示。<br>
+        限制四：宣傳策略屬基於公開渠道的觀察與歸類，並非學校官方策略文件。
+      </p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>西貢區中學全景 2026</h4>
+        <p style="margin:0">一個以官方數據為本的比較頁：中一收生數字、六級班數、學校特色、社交平台與宣傳策略。資料只供參考，選校前請以學校最新公布為準。</p>
+      </div>
+      <div>
+        <h4>主要資料來源</h4>
+        <ul>
+          <li><a href="https://www.chsc.hk/ssp2025/" target="_blank" rel="noopener">中學概覽 2025/2026</a></li>
+          <li><a href="https://www.edb.gov.hk/tc/edu-system/primary-secondary/spa-systems/secondary-spa/general-info/index.html" target="_blank" rel="noopener">教育局：中學學位分配辦法</a></li>
+          <li>各校官方網站（見每校詳情）</li>
+        </ul>
+      </div>
+      <div>
+        <h4>使用說明</h4>
+        <ul>
+          <li>表格欄位可點擊排序</li>
+          <li>搜尋支援校名、宗教、特色關鍵字</li>
+          <li>點擊校名開啟完整資料卡</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-note">資料整理日期：2026-11-01 ｜ 校情年份：2025/26 學年 ｜ 中一學額年份：2026/27 學年 ｜ 本頁為獨立整理，與任何學校或辦學團體無關。</div>
+  </div>
+</footer>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="m-title">
+  <div class="sheet">
+    <header>
+      <button class="close" id="m-close" aria-label="關閉">✕</button>
+      <h3 id="m-title"></h3>
+      <p id="m-sub"></p>
+    </header>
+    <div class="body" id="m-body"></div>
+  </div>
+</div>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
