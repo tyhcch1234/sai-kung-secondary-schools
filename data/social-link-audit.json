@@ -1,0 +1,2354 @@
+{
+  "checked_at": "2026-11-09",
+  "scope": "Facebook, Instagram, YouTube and Xiaohongshu; all 26 listed schools",
+  "counts_use": "Verified school/department accounts only; labeled alumni, student and unverified legacy links excluded",
+  "items": [
+    {
+      "accounts": [
+        {
+          "evidence_text": "The existing record lists this channel ID. The fetched channel page identifies it as 'Tseung Kwan O Government Secondary School 將軍澳官立中學'; the school's website also presents Campus TV video pages and lists YouTube in its school navigation.",
+          "evidence_url": "https://www.youtube.com/channel/UCKyZUAZajxy3vtQNfgqI-Pg",
+          "is_new": false,
+          "label": "Official school YouTube channel",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/channel/UCKyZUAZajxy3vtQNfgqI-Pg"
+        },
+        {
+          "evidence_text": "The indexed About information for the school-named YouTube channel lists 'Facebook Page facebook.com/TKOGSSOFFICIAL'; the search result identifies the channel as Tseung Kwan O Government Secondary School. Direct Facebook fetch was limited to a login prompt.",
+          "evidence_url": "https://www.youtube.com/@TKOGSSOFFICIAL/about",
+          "is_new": true,
+          "label": "Official school Facebook page",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/TKOGSSOFFICIAL/"
+        },
+        {
+          "evidence_text": "The official school-hosted 2026 newsletter prints 'Email: info@tkogss.edu.hk Website: http://www.tkogss.edu.hk Instagram: tkogss_official'; the school-named YouTube channel's indexed About information links the same Instagram URL. Direct Instagram fetch was limited to a login prompt.",
+          "evidence_url": "https://tkogss.edu.hk/sites/default/files/notice/2526_shang_xue_qi_yang_fan_2.pdf",
+          "is_new": true,
+          "label": "Official school Instagram account",
+          "ownership": "school",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/tkogss_official/"
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "Verified the school account link from the school-named YouTube channel's indexed About information, which lists Facebook Page facebook.com/TKOGSSOFFICIAL. Fetching the Facebook profile itself returned only a login prompt, so the live page content could not be fully checked.",
+          "platform": "facebook",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "The school's official 2026 newsletter hosted on tkogss.edu.hk prints Instagram: tkogss_official, and the school-named YouTube channel's indexed About information links instagram.com/tkogss_official. Fetching Instagram itself returned a login prompt, so the live page content could not be fully checked.",
+          "platform": "instagram",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "The existing channel ID resolves to a channel titled 'Tseung Kwan O Government Secondary School 將軍澳官立中學'; its indexed About information also links back to tkogss.edu.hk and the school's Facebook and Instagram profiles. No distinct separate CTV channel was verified; the school-hosted Campus TV pages are activity/video pages.",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "Focused Chinese and English searches found no school-published or officially cross-linked Xiaohongshu profile. Results were generic or unrelated. This is not evidence that no account exists.",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "156",
+      "school_name": "將軍澳官立中學",
+      "visited_sources": [
+        "http://www.tkogss.edu.hk",
+        "https://www.tkogss.edu.hk/en/school-profile",
+        "https://www.tkogss.edu.hk/en/videos/maths/2027",
+        "https://www.tkogss.edu.hk/tc/alumni-association",
+        "https://www.youtube.com/channel/UCKyZUAZajxy3vtQNfgqI-Pg",
+        "https://www.youtube.com/@TKOGSSOFFICIAL/about",
+        "https://www.facebook.com/TKOGSSOFFICIAL/",
+        "https://www.instagram.com/tkogss_official/",
+        "https://tkogss.edu.hk/sites/default/files/notice/2526_shang_xue_qi_yang_fan_2.pdf",
+        "https://www.tkogss.edu.hk/sites/default/files/schoolreport2324.pdf"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "The indexed page is titled H.K.M.L.C. Queen Maud Secondary School and lists the school's +852 2702 6509 phone number and info@qmss.edu.hk contact; its About result describes the school's history. Direct page fetch was blocked by Facebook's login shell.",
+          "evidence_url": "https://www.facebook.com/p/HKMLC-Queen-Maud-Secondary-School-100057494469916/",
+          "is_new": false,
+          "label": "H.K.M.L.C. Queen Maud Secondary School",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/100057494469916/"
+        },
+        {
+          "evidence_text": "The profile bio says 港澳信義會慕德中學官方Instagram and describes its role as recording campus life, providing school news, and sharing teacher features; recent posts cover school events. This is the campus television account.",
+          "evidence_url": "https://www.instagram.com/qmerstv/",
+          "is_new": true,
+          "label": "QMers 慕德校園電視台",
+          "ownership": "department",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/qmerstv/"
+        },
+        {
+          "evidence_text": "The fetched channel is titled 港澳信義會慕德中學校園電視台QMersTV and contains school leadership, performances, and school-introduction videos. The school's official website lists a 校園電視台 section; search results resolve the channel's public handle as @qmssqmerstv.",
+          "evidence_url": "https://www.youtube.com/channel/UCs6T1wo_il766InDAaSsGDg/videos",
+          "is_new": true,
+          "label": "港澳信義會慕德中學校園電視台 QMersTV",
+          "ownership": "department",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@qmssqmerstv"
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "Two apparent school pages were found with school name, school website/contact details, and school activity posts. Direct Facebook fetches returned login shells, so live page contents could not be fully inspected; attribution is based on indexed profile information and school identifiers, not a full live-platform check.",
+          "platform": "facebook",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "QMers campus television profile @qmerstv was fetchable and describes itself as the school's official Instagram, covering campus filming, school news, and teacher features. A separate @qmss.edu.hk profile explicitly says it is managed by the alumni association and is not included because it is not listed in the current record.",
+          "platform": "instagram",
+          "status": "verified"
+        },
+        {
+          "notes": "The QMersTV channel is identified as 港澳信義會慕德中學校園電視台 and contains school activity and school-introduction videos. The channel page was fetched; the school's CTV section is listed on the official website.",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "Focused searches did not establish a school-run Xiaohongshu account. A surfaced profile was fetched and identified as QueenVicMarket维妈, an unrelated Melbourne business. This is not evidence that the school has no account.",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "108",
+      "school_name": "港澳信義會慕德中學",
+      "visited_sources": [
+        "https://www.qmss.edu.hk/",
+        "https://www.qmss.edu.hk/tc/activity/%E6%A0%A1%E5%9C%92%E9%9B%BB%E8%A6%96%E5%8F%B0",
+        "https://www.qmss.edu.hk/tc/activity/%E6%A0%A1%E5%8F%8B%E6%9C%83",
+        "https://www.facebook.com/100057494469916",
+        "https://www.facebook.com/p/HKMLC-Queen-Maud-Secondary-School-100057494469916/",
+        "https://www.facebook.com/hkmlcqmss/",
+        "https://www.instagram.com/qmss.edu.hk/",
+        "https://www.instagram.com/qmerstv/",
+        "https://www.youtube.com/channel/UCs6T1wo_il766InDAaSsGDg/videos",
+        "https://www.youtube.com/@qmssqmerstv",
+        "https://www.youtube.com/@qmers5029",
+        "https://www.xiaohongshu.com/user/profile/65d81383000000000503104c"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "The indexed public profile identifies King Ling College and lists 1 Lam Shing Road, Tseung Kwan O, +852 2702 9602, klc-mail@kingling.edu.hk, and a link to kingling.edu.hk. The official school contact page confirms the same address, telephone, and email. The Facebook page itself could not be read beyond its login wall, so its live contents were not independently inspected.",
+          "evidence_url": "https://www.facebook.com/kinglingcollege/",
+          "is_new": true,
+          "label": "King Ling College",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/kinglingcollege/"
+        },
+        {
+          "evidence_text": "The channel page is titled 'King Ling College - YouTube'; a video on that channel is titled 'King Ling College 景嶺書院 2023-2024 [入學手冊短片 / Admission Video]' and its uploader is King Ling College. The handle includes 'collegectv', supporting the CTV/department label. This is the existing URL in the supplied school record. Targeted raw-HTML extraction also found the exact profile/channel destination among this official page’s social or Campus TV links.",
+          "evidence_url": "https://www.kingling.edu.hk/",
+          "is_new": false,
+          "label": "King Ling College Campus TV (CTV)",
+          "ownership": "department",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@kinglingcollegectv",
+          "supporting_evidence_urls": [
+            "https://www.youtube.com/watch?v=CI1fBcX3754"
+          ]
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "A likely school page at https://www.facebook.com/kinglingcollege/ is indexed as King Ling College and lists the exact official school address, telephone, email, and kingling.edu.hk website; those contact details match the official contact page. Direct Facebook fetch returned only a login wall, so no live page content could be checked. The official school site’s separately linked Facebook page is explicitly the alumni association (klcalumni), not the school’s main page.",
+          "platform": "facebook",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "Search surfaced https://www.instagram.com/king_ling_college/ with an indexed profile description identifying it as 'King Ling College Official IG / 景嶺書院校方帳戶'; direct fetch returned only Instagram login content and the official school pages reviewed did not link this profile. Treat as an unverified candidate rather than a confirmed account; platform content was inaccessible.",
+          "platform": "instagram",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "The record’s existing @kinglingcollegectv channel resolves to a channel titled King Ling College. A channel video is titled 'King Ling College 景嶺書院 2023-2024 [入學手冊短片 / Admission Video]' and is attributed to King Ling College, confirming the school/CTV role.",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "Focused Chinese and English searches and review of official school pages found no attributable school or department profile. Search returns were unrelated or generic login pages; this is not evidence that no account exists.",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "163",
+      "school_name": "景嶺書院",
+      "visited_sources": [
+        "http://www.kingling.edu.hk",
+        "https://www.kingling.edu.hk/en/sections/home-affairs/photos",
+        "https://www.instagram.com/king_ling_college/",
+        "https://www.facebook.com/112392878778103",
+        "https://www.facebook.com/kinglingcollege/",
+        "https://www.youtube.com/@kinglingcollegectv/videos",
+        "https://www.kingling.edu.hk/en/sections/external-affairs/other-information",
+        "https://www.kingling.edu.hk/tc/campus-clip",
+        "https://www.kingling.edu.hk/en/inspiring-clips",
+        "https://www.kingling.edu.hk/en/s1-admission-video",
+        "https://www.youtube.com/watch?v=CI1fBcX3754",
+        "https://www.kingling.edu.hk/tc/contact-us"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "The channel profile shows the title 'YCH Wong Wha San Sec Sch - Campus TV' and handle @ychwwsssbc; visible uploads include '學校宣傳片' (school promotional film) and 'Words of the School Supervisor'. This is the existing YouTube account in the supplied record, canonicalized to its public handle URL. Targeted raw-HTML extraction also found the exact profile/channel destination among this official page’s social or Campus TV links.",
+          "evidence_url": "https://www.ychwwsss.edu.hk/en/",
+          "is_new": false,
+          "label": "YCH Wong Wha San Sec Sch - Campus TV",
+          "ownership": "department",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@ychwwsssbc",
+          "supporting_evidence_urls": [
+            "https://www.youtube.com/@ychwwsssbc"
+          ]
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "The official school site was checked, including its Alumni Association page; it explicitly identifies its Facebook link as the Alumni Association's, not the school's. Search surfaced a school-name Facebook page, but fetching its profile returned 'This page isn't available right now'; school ownership and live status could not be verified.",
+          "platform": "facebook",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "The official school Alumni Association page identifies its Instagram link as the Alumni Association's. Search also surfaced @ychwwsss_official, but the direct profile fetch returned only an Instagram login prompt and no official-school link corroborates ownership; no school-run Instagram account was verified.",
+          "platform": "instagram",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "The existing listed channel resolves to @ychwwsssbc and is branded 'YCH Wong Wha San Sec Sch - Campus TV'; its videos include the school's promotional film and a message from the School Supervisor. Classified as the school's Campus TV department.",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "Focused Chinese and English searches did not identify a corroborated school-run Xiaohongshu profile. The Xiaohongshu home page was accessible, but no school profile URL or authoritative school-site link was found; this is not evidence that no account exists.",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "256",
+      "school_name": "仁濟醫院王華湘中學",
+      "visited_sources": [
+        "https://www.ychwwsss.edu.hk",
+        "https://www.ychwwsss.edu.hk/en/content.php?wid=91",
+        "https://www.ychwwsss.edu.hk/tc/content.php?wid=91",
+        "https://www.facebook.com/ychwwssss/",
+        "https://www.instagram.com/ychwwsss_official/",
+        "https://www.youtube.com/user/ychwwsssbc/feed",
+        "https://www.youtube.com/channel/UC-V9Wfyi6UaH9rvAc822IHA",
+        "https://www.xiaohongshu.com",
+        "https://www.youtube.com/@ychwwsssbc",
+        "https://www.facebook.com/pages/Yan-Chai-Hospital-Wong-Wha-San-Secondary-School/186977908000664",
+        "https://www.instagram.com/wws_alumni/",
+        "https://www.facebook.com/ychwwsssaa/"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "The supplied record already lists this Facebook URL and marks the record alumniOnly=true. The profile using the same plkhyc1984aa name identifies itself as “PLKHYC1984 Alumni Association 甲子校友會” and says it serves as a bridge between graduates and the alma mater. Facebook itself returned only a login page, so the listed link is classified as alumni rather than school-run.",
+          "evidence_url": "https://www.instagram.com/plkhyc1984aa/",
+          "is_new": false,
+          "label": "保良局甲子何玉清中學校友會 / PLKHYC1984 Alumni Association",
+          "ownership": "alumni",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/plkhyc1984aa"
+        },
+        {
+          "evidence_text": "The official School Videos page identifies school-produced films, including the 2019 “甲子故事” and the 2026 school introduction; the fetched HYC PLK channel contains the school-branded promotional short film “保良局甲子何玉清中學宣傳短片（6分鐘版本）(2019年3月)”. The channel's school-specific content and the official school's video listing support classifying this as the school's video channel.",
+          "evidence_url": "https://www.plk1984.edu.hk/CP/pG/36/48/60",
+          "is_new": true,
+          "label": "HYC PLK — school promotional-video channel",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@hycplk6682"
+        },
+        {
+          "evidence_text": "The official School Videos page lists the school's marching-band performances and the 2026 Tianjin exchange/music event. The fetched channel is explicitly named “PLKHYC1984Marching Band” and contains 25 videos, including matching school/event-branded 2026 performances and the school's open-day performance. This is classified as a department account for the marching band, not a separate school-wide channel.",
+          "evidence_url": "https://www.plk1984.edu.hk/CP/pG/36/48/60",
+          "is_new": true,
+          "label": "PLKHYC1984 Marching Band — school marching-band channel",
+          "ownership": "department",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@PLKHYC1984MarchingBand"
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "The supplied Facebook URL is retained as an alumni-association link, not a school account; its corresponding association identity is corroborated by the Instagram profile. Facebook fetches yielded login pages, including for school-branded candidate pages, and the official site pages inspected did not expose a direct Facebook profile link. No full live-platform check is claimed.",
+          "platform": "facebook",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "No school-wide Instagram account was verified. Search surfaced @plkhyc.0go.ovo, a school-related anti-drug leadership project account, but it is not linked from the official site and is not a school-wide account; direct fetch showed an Instagram login wall. The fetched @plkhyc1984aa profile identifies itself as the alumni association and is not in the existing school record, so it is not added as an account.",
+          "platform": "instagram",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "Verified a school promotional-video channel and a school marching-band channel from their school-identifying channel/video material cross-checked against the official School Videos page. The official page's extracted text does not expose the outgoing YouTube URLs; no claim is made that a direct link was visible there.",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "No school-run profile was verified. Search surfaced an unidentified profile candidate, but its fetch showed only the Xiaohongshu login screen, and no direct school profile link was found on the official site. A contest-related short link in an Instagram search result was not treated as a school account. No full live-platform check is claimed.",
+          "platform": "xiaohongshu",
+          "status": "access_blocked"
+        }
+      ],
+      "school_id": "12",
+      "school_name": "保良局甲子何玉清中學",
+      "visited_sources": [
+        "http://www.plk1984.edu.hk",
+        "https://www.plk1984.edu.hk/CP/pG/36/48/60",
+        "https://www.plk1984.edu.hk/CP/pG/69/125",
+        "https://www.plk1984.edu.hk/CustomPage/paragraphGroup.aspx?ct=customPage&webPageId=59&pageId=216&cpmId=127",
+        "https://www.plk1984.edu.hk/CP/pG/104/232/122",
+        "https://www.plk1984.edu.hk/Content/06_others/01_contact_us/index.aspx",
+        "https://www.plk1984.edu.hk/en",
+        "https://www.facebook.com/100539772922439",
+        "https://www.facebook.com/plkhyc1984aa",
+        "https://www.facebook.com/Po-Leung-Kuk-Ho-Yuk-Ching-1984-College-155818124606808/",
+        "https://www.instagram.com/plkhyc1984aa/",
+        "https://www.instagram.com/plkhyc.0go.ovo/",
+        "https://www.youtube.com/@hycplk6682",
+        "https://www.youtube.com/@PLKHYC1984MarchingBand",
+        "https://www.xiaohongshu.com/user/profile/64351bb5000000000e01cab1"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "The already-listed profile is titled ‘博愛醫院八十週年鄧英喜中學校友會 The Alumni Association of POH 80th Ann. TYH College’; it identifies itself as the alumni association, not the school. Facebook fetch displayed only a login interstitial, but the indexed profile title is explicit.",
+          "evidence_url": "https://www.facebook.com/pohtyh.alumni/",
+          "is_new": false,
+          "label": "The Alumni Association of POH 80th Ann. TYH College",
+          "ownership": "alumni",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/pohtyh.alumni/"
+        },
+        {
+          "evidence_text": "The official school's indexed footer gives ‘IG: pohtyh_official’; the corresponding indexed Instagram profile identifies itself as ‘POHTYH Official’ and says ‘博愛醫院八十週年鄧英喜中學官方ig’ (the school's official IG). The homepage fetch omitted the social footer, but the exact footer handle was present in search indexing.",
+          "evidence_url": "https://www.pohtyh.edu.hk/",
+          "is_new": true,
+          "label": "POHTYH Official — school official Instagram",
+          "ownership": "school",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/pohtyh_official/"
+        },
+        {
+          "evidence_text": "An indexed extract of the school's official publicity PDF says a teacher helped the music subject establish a YouTube channel and take part in related activities. The fetched candidate channel identifies itself as ‘TYH Activities (博愛醫院八十週年鄧英喜中學活動)’ and displays school performances/activities. This supports a school music/activities department role; the PDF fetch returned malformed encoded content and did not expose the exact channel URL.",
+          "evidence_url": "https://www.pohtyh.edu.hk/Files/SchoolIntroDay/2025Publicity.pdf",
+          "is_new": true,
+          "label": "TYH Activities — school music/activities channel",
+          "ownership": "department",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@POHTYHMusic"
+        }
+      ],
+      "existing_link_issues": [
+        {
+          "evidence_text": "Profile title: ‘博愛醫院八十週年鄧英喜中學校友會 The Alumni Association of POH 80th Ann. TYH College’. Keep the URL only if the directory explicitly categorizes alumni links; otherwise relabel it as alumni rather than official school social media. Do not remove it solely because Facebook blocks direct profile viewing.",
+          "evidence_url": "https://www.facebook.com/pohtyh.alumni/",
+          "issue": "The existing record includes the alumni association URL as a social link and marks the record alumniOnly=true. The profile identifies itself as the school's Alumni Association, so it is not a school official Facebook account.",
+          "platform": "facebook",
+          "recommended_action": "relabel",
+          "url": "https://www.facebook.com/pohtyh.alumni/"
+        }
+      ],
+      "platform_checks": [
+        {
+          "notes": "The only listed Facebook URL is the school alumni association, not a school-run account. Other school-name pages surfaced in search, but the official site did not link them and their ownership was not established; Facebook fetches showed login interstitials.",
+          "platform": "facebook",
+          "status": "not_verified"
+        },
+        {
+          "notes": "The official school website footer is indexed with ‘IG: pohtyh_official’; the Instagram profile is titled POHTYH Official and its indexed bio says it is the school's official IG. Instagram fetch returned a login prompt, so direct profile inspection was limited; attribution rests on the exact official-site handle and indexed profile identity.",
+          "platform": "instagram",
+          "status": "verified"
+        },
+        {
+          "notes": "An indexed extract of the school's official publicity PDF says a teacher helped the music subject establish a YouTube channel. The candidate channel identifies itself as ‘TYH Activities (博愛醫院八十週年鄧英喜中學活動)’ and shows school performances/activities, supporting a school music/activities department role. The PDF fetcher returned malformed encoded content, so its exact channel URL was not readable there.",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "No school-run Xiaohongshu account was verified. A school-specific search result fetches as HelloTalk, an unrelated language-exchange service; another Pok Oi Hospital post concerns a hospital-wide charity account, not a school account.",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "31",
+      "school_name": "博愛醫院八十週年鄧英喜中學",
+      "visited_sources": [
+        "http://www.pohtyh.edu.hk",
+        "https://www.pohtyh.edu.hk/",
+        "https://www.pohtyh.edu.hk/ADM_S1Registration",
+        "https://www.pohtyh.edu.hk/Activities",
+        "https://www.pohtyh.edu.hk/MusicalWork",
+        "https://www.pohtyh.edu.hk/Files/SchoolIntroDay/2025Publicity.pdf",
+        "https://www.instagram.com/pohtyh_official/",
+        "https://www.youtube.com/@POHTYHMusic",
+        "https://www.youtube.com/@POHTYHMusic/about",
+        "https://www.facebook.com/pohtyh.alumni/",
+        "https://www.facebook.com/1339893749478088",
+        "https://www.xiaohongshu.com/user/profile/607cec11000000000101d9a6"
+      ]
+    },
+    {
+      "accounts": [],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "No school-run Facebook account verified. Search surfaced a school-named page whose fetched profile explicitly says ‘Unofficial Page,’ has no posts, and lists zero followers; another exact-name search result led only to Facebook's login page. Neither is linked from the official school pages reviewed. This is not evidence that no official account exists.",
+          "platform": "facebook",
+          "status": "not_verified"
+        },
+        {
+          "notes": "No school-run Instagram account verified. Search surfaced @skss_nexus, described in the search result as the 2025–2026 all-round leadership team, but not linked by the official site and not established as a school/department account. Fetch returned only Instagram's login wall, so the profile could not be independently inspected; no full live-platform check is claimed.",
+          "platform": "instagram",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "No school-run YouTube channel verified. Search results were third-party school-related videos, primary-school channels, or non-school accounts. The fetched Phare SKSS channel contains a 2018–19 student-council candidate-slate campaign video; another acronym match is an individual student/project channel. The official school's Powerful Learning page did not expose a channel link. This does not establish nonexistence.",
+          "platform": "youtube",
+          "status": "not_verified"
+        },
+        {
+          "notes": "Focused Chinese and English searches found no identifiable school-run Xiaohongshu profile or exact account link on the official pages reviewed. Results were unrelated accounts or general platform references; no account URL is asserted, and absence from these searches does not prove nonexistence.",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "140",
+      "school_name": "基督教宣道會宣基中學",
+      "visited_sources": [
+        "http://www.skss.edu.hk",
+        "https://www.skss.edu.hk/",
+        "https://www.skss.edu.hk/zh/home-zh/",
+        "https://www.skss.edu.hk/about/introducing-skss/",
+        "https://www.skss.edu.hk/category/school-news/page/8/",
+        "https://www.skss.edu.hk/category/school-news/",
+        "https://www.skss.edu.hk/academics/powerful-learning/",
+        "https://m.facebook.com/profile.php?id=405171349546539",
+        "https://www.facebook.com/128992123849533",
+        "https://www.instagram.com/skss_nexus/",
+        "https://www.youtube.com/watch?v=dJN7RmrgY1k",
+        "https://www.youtube.com/@phareskss8053/videos",
+        "https://m.youtube.com/@sksssavehinbb4167"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "The indexed profile identifies as 張沛松紀念中學 Chang Pui Chung Memorial School and lists the school's exact cpc.edu.hk domain, address, phone, and school email; these details match the official school profile at https://www.chsc.hk/ssp2025/sch_detail.php?lang_id=1&sch_id=348. Direct page fetch was login-blocked, so the current live page could not be fully checked.",
+          "evidence_url": "https://www.facebook.com/WeoCPCMS/",
+          "is_new": true,
+          "label": "Chang Pui Chung Memorial School official Facebook page",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/WeoCPCMS/"
+        },
+        {
+          "evidence_text": "The channel is titled IT CPC, its profile links to cpc.edu.hk, and its two uploads are about Chang Pui Chung Memorial School's ViuTV campus program. The school's official Campus TV page is https://www.cpc.edu.hk/cpccampustv.html, which identifies the school's 創新科技多媒體中心(校園電視台).",
+          "evidence_url": "https://www.youtube.com/@itcpc8147/videos",
+          "is_new": true,
+          "label": "IT CPC — Innovation & Technology Multi-media Centre / Campus TV",
+          "ownership": "department",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@itcpc8147"
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "Search metadata for the exact profile https://www.facebook.com/WeoCPCMS/ identifies the school and lists its cpc.edu.hk website, school address, phone, and email, matching the official school profile. Direct Facebook fetch returned only a login shell, so live posts and page controls could not be independently inspected.",
+          "platform": "facebook",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "Focused searches found location pages and third-party posts mentioning or tagging the school, but no school-run profile linked from the official site or otherwise verified. Those posts were not counted as school accounts.",
+          "platform": "instagram",
+          "status": "not_verified"
+        },
+        {
+          "notes": "The IT CPC channel profile links to cpc.edu.hk and hosts two videos about Chang Pui Chung Memorial School's ViuTV campus program. The school's official site separately identifies its Innovation & Technology Multi-media Centre (Campus TV).",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "Focused Chinese- and English-language searches found no school-run Xiaohongshu profile or exact official-site link. No account was inferred from school-name matches.",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "348",
+      "school_name": "威靈頓教育機構張沛松紀念中學",
+      "visited_sources": [
+        "http://www.cpc.edu.hk",
+        "https://www.cpc.edu.hk/",
+        "https://www.cpc.edu.hk/contact",
+        "https://www.cpc.edu.hk/sitemap.xml",
+        "https://www.cpc.edu.hk/sitemap",
+        "https://www.cpc.edu.hk/awards-activity/12/1300",
+        "https://www.cpc.edu.hk/awards-activity/15/1270",
+        "https://www.cpc.edu.hk/cpccampustv.html",
+        "https://www.facebook.com/WeoCPCMS/",
+        "https://www.facebook.com/WeoCPCMS/about/",
+        "https://www.youtube.com/@itcpc8147/videos",
+        "https://www.chsc.hk/ssp2025/sch_detail.php?lang_id=1&sch_id=348"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "The indexed public page title is 寶覺中學 Po Kok Secondary School and its listing gives 9 Choi Ming Street, +852 2702 2863 and pokok@pokok.edu.hk, which match the official school's contact details. Fetching the profile returned only a login wall.",
+          "evidence_url": "https://www.facebook.com/61587819817939",
+          "is_new": false,
+          "label": "Po Kok Secondary School official Facebook page",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/61587819817939"
+        },
+        {
+          "evidence_text": "Indexed profile is titled Po Kok Secondary School (@pokoksecondaryschool); indexed posts include first-person school announcements for the 95th-anniversary/open day and school activities in October 2026. Direct fetching returned an Instagram login wall, limiting live inspection.",
+          "evidence_url": "https://www.instagram.com/pokoksecondaryschool/",
+          "is_new": false,
+          "label": "Po Kok Secondary School official Instagram account",
+          "ownership": "school",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/pokoksecondaryschool/"
+        },
+        {
+          "evidence_text": "The channel is titled Po Kok Secondary School (@pokoksecondaryschool), links from its channel header to www.pokok.edu.hk, and includes the 2627 年度寶覺中學學校簡介 and other school promotional/event videos.",
+          "evidence_url": "https://www.youtube.com/@pokoksecondaryschool",
+          "is_new": true,
+          "label": "Po Kok Secondary School official YouTube channel",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@pokoksecondaryschool"
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "The existing profile is titled 寶覺中學 Po Kok Secondary School and its indexed public details show the school's 9 Choi Ming Street address, +852 2702 2863 and pokok@pokok.edu.hk, matching the official contact page. Direct fetching returned only Facebook's login wall, so no full live-platform inspection is claimed.",
+          "platform": "facebook",
+          "status": "verified"
+        },
+        {
+          "notes": "The existing profile is indexed as Po Kok Secondary School (@pokoksecondaryschool), with recent first-person school announcements including the 95th-anniversary/open-day item and school activities. Direct fetching returned only Instagram's login wall; the official website renders an Instagram link label but the extracted text does not expose its exact href. A separate @pokok_sports profile describes itself as a school sports team, but no official-site link/ownership proof was found, so it is not included.",
+          "platform": "instagram",
+          "status": "verified"
+        },
+        {
+          "notes": "The channel is titled Po Kok Secondary School, its header links to pokok.edu.hk, and it contains the school's 2026-27 introduction and other school promotional/event videos. A separate older PokokSch channel has only four old school-related videos and no visible official-site attribution, so it is not treated as verified. No separate CTV channel was verified.",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "Focused school-name searches, including Xiaohongshu-specific and English queries, produced no identifiable school-run profile. This is not evidence that no account exists.",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "23",
+      "school_name": "寶覺中學",
+      "visited_sources": [
+        "http://www.pokok.edu.hk",
+        "https://www.pokok.edu.hk/",
+        "https://www.pokok.edu.hk/joomla/index.php/school-information/school-information-2/contact-us",
+        "https://www.pokok.edu.hk/joomla/index.php/school-information/media",
+        "https://www.pokok.edu.hk/joomla/index.php/school-information/school-information-2/newsletter",
+        "https://www.pokok.edu.hk/joomla/index.php/school-information/school-information-2/school-profiles/school-profiles-eng",
+        "https://www.facebook.com/p/%E5%AF%B6%E8%A6%BA%E4%B8%AD%E5%AD%B8-Po-Kok-Secondary-School-61587819817939/",
+        "https://www.facebook.com/pokokalumni/",
+        "https://www.instagram.com/pokoksecondaryschool/",
+        "https://www.instagram.com/pokok_sports/",
+        "https://www.youtube.com/@pokoksecondaryschool",
+        "https://www.youtube.com/channel/UC6Nhb7ihk2apOwCbEfN8Mmg/videos"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "公開搜尋卡顯示頁名為 TWGHs Lui Yun Choy Memorial College，並列出學校網站 lycmc.edu.hk 及校址/電話；fetch 此頁只返回登入提示，故未能檢視即時貼文。",
+          "evidence_url": "https://www.facebook.com/LYCMC/",
+          "is_new": false,
+          "label": "TWGHs Lui Yun Choy Memorial College（學校官方 Facebook）",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/LYCMC/"
+        },
+        {
+          "evidence_text": "東華三院官方校友頁稱其服務對象為東華三院數以萬計的舊生；搜尋頁將既有 Facebook URL 顯示為 Tung Wah Alumni（NGO）。呂潤財校方另有獨立的校友會介紹及社群，故此連結應保留但明確標為院級校友資源。",
+          "evidence_url": "https://www.tungwah.org.hk/education/alumni/",
+          "is_new": false,
+          "label": "Tung Wah Alumni（東華三院整體校友資源，非呂潤財專屬）",
+          "ownership": "alumni",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/tungwahalumni/"
+        },
+        {
+          "evidence_text": "頻道頁列示 @LYCMCCampusTV、318 位訂閱者及 5 部影片，包含《LYCMC 東華三院呂潤財紀念中學 學校簡介 2026》、校慶主題曲及學校介紹短片；頻道為校園電視台部門，而非一般學生個人帳號。",
+          "evidence_url": "https://www.youtube.com/channel/UCEBfPMWYbxgRRzz9u142gtQ/about",
+          "is_new": true,
+          "label": "LYCMC Campus TV（校園電視台）",
+          "ownership": "department",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@LYCMCCampusTV"
+        }
+      ],
+      "existing_link_issues": [
+        {
+          "evidence_text": "東華三院官方頁面將服務描述為聯繫東華三院數以萬計的舊生；校方的獨立頁面則將其校友組織稱為本校校友會，且列其自己的 Facebook/Instagram 專頁。建議保留但標示為『東華三院院級校友資源』，不列作學校官方 Facebook。",
+          "evidence_url": "https://www.tungwah.org.hk/education/alumni/",
+          "issue": "此為東華三院整體校友資源，並非呂潤財紀念中學專屬帳號；若放在學校 Facebook 清單中會造成校方官方社群的錯誤歸屬。校方網站另有獨立校友會介紹。",
+          "platform": "facebook",
+          "recommended_action": "relabel",
+          "url": "https://www.facebook.com/tungwahalumni"
+        }
+      ],
+      "platform_checks": [
+        {
+          "notes": "已列學校頁 https://www.facebook.com/LYCMC/ 的公開搜尋卡以 TWGHs Lui Yun Choy Memorial College 為名稱，並列出 lycmc.edu.hk；但 fetch 該頁只取得 Facebook 登入頁，未能檢視即時貼文。另一既有連結 tungwahalumni 為東華三院整體校友資源，不是呂潤財校方專頁。",
+          "platform": "facebook",
+          "status": "verified"
+        },
+        {
+          "notes": "校方校友會介紹頁說明校友會有 Facebook 及 Instagram 專頁，搜尋結果指向 @lycmc_alumni，該帳號屬校友會而非校方/部門帳號；未核實到學校或部門經營的 Instagram。Instagram 頁面 fetch 只返回登入提示，不能作完整即時平台檢查；未發現不等於不存在。",
+          "platform": "instagram",
+          "status": "not_verified"
+        },
+        {
+          "notes": "核實到 LYCMC Campus TV 頻道 @LYCMCCampusTV；頻道頁列有 2026 學校簡介、校慶主題曲及校園介紹等校方內容，應標註為校園電視台部門帳號。",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "以中文及英文聚焦搜尋未找到可由校方官方來源連結或確認的小紅書帳號；結果主要是第三方內容、校名提及或無關項目。沒有據此推斷帳號不存在，也沒有完成小紅書平台內的全面即時檢查。",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "71",
+      "school_name": "東華三院呂潤財紀念中學",
+      "visited_sources": [
+        "http://www.lycmc.edu.hk",
+        "https://www.lycmc.edu.hk/",
+        "https://www.lycmc.edu.hk/tc/latest_news",
+        "https://www.lycmc.edu.hk/tc/%E8%81%AF%E7%B5%A1%E6%88%91%E5%80%91-contact-us",
+        "https://www.lycmc.edu.hk/tc/%E6%A0%A1%E5%8F%8B%E6%9C%83%E7%B0%A1%E4%BB%8B",
+        "https://www.lycmc.edu.hk/tc/english-rich-environment",
+        "http://103.231.255.16/~lycmc/tc/videos/node?year=2026",
+        "https://www.facebook.com/LYCMC/",
+        "https://www.facebook.com/tungwahalumni",
+        "https://www.facebook.com/tungwahalumni/",
+        "https://www.facebook.com/LYCMCAlumni/",
+        "https://www.instagram.com/lycmc_alumni/",
+        "https://www.instagram.com/popular/%E6%9D%B1%E8%8F%AF%E4%B8%89%E9%99%A2%E5%91%82%E6%BD%A4%E8%B2%A1%E7%B4%80%E5%BF%B5%E4%B8%AD%E5%AD%B8/",
+        "https://www.youtube.com/c/lycmccampustv",
+        "https://www.youtube.com/channel/UCEBfPMWYbxgRRzz9u142gtQ/about",
+        "https://www.youtube.com/watch?v=Ex15N8pU3aM",
+        "https://www.youtube.com/watch?v=U7m-aaiYLOw",
+        "https://www.tungwah.org.hk/education/alumni/"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "Search-indexed profile is titled Carmel Divine Grace Foundation Secondary School (School Official Page) and associates the school page with cdgfss.edu.hk and school contact details. Direct fetch reached Facebook's login wall.",
+          "evidence_url": "https://www.facebook.com/cdgfss/",
+          "is_new": false,
+          "label": "Carmel Divine Grace Foundation Secondary School (School Official Page)",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/cdgfss/"
+        },
+        {
+          "evidence_text": "The association's own About Us page names 迦密主恩中學校友會 and says it was established in 1994 to maintain ties between alumni and the alma mater. This is an existing alumni link, not a school-run account; the listed ?wid=45 variant is a duplicate URL variant of the same profile.",
+          "evidence_url": "https://cdgfssaa.wixsite.com/officialwebsite/aboutus",
+          "is_new": false,
+          "label": "迦密主恩中學校友會 (Carmel Divine Grace Foundation Secondary School Alumni Association)",
+          "ownership": "alumni",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/cdgfssaa/"
+        },
+        {
+          "evidence_text": "The school's official Facebook page cross-identifies its Instagram as @cdgfss_official; indexed Instagram profile metadata names Carmel Divine Grace Foundation Secondary School and describes CDGFSS. Direct Instagram profile fetch displayed a login wall.",
+          "evidence_url": "https://www.facebook.com/cdgfss/photos/1100851105564972/",
+          "is_new": false,
+          "label": "Carmel Divine Grace Foundation Secondary School (official school account)",
+          "ownership": "school",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/cdgfss_official/"
+        },
+        {
+          "evidence_text": "The accessible profile is titled CareersFurtherStudiesCommittee and addresses 主恩 students, describing posts on further studies, careers, university open days and talks. Its bio links a CDGFSS-branded career-and-life-planning site.",
+          "evidence_url": "https://www.instagram.com/cdgfss_cfc_careers/",
+          "is_new": false,
+          "label": "Careers and Further Studies Committee (school department)",
+          "ownership": "department",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/cdgfss_cfc_careers/"
+        },
+        {
+          "evidence_text": "The indexed profile is titled CDGFSS Campus Television and says it documents life across CDGFSS, matching the school's separately identified official Campus Television channel. Instagram's direct fetch displayed a login wall, so the profile itself could not be inspected live.",
+          "evidence_url": "https://www.instagram.com/cdgfss_ctv/",
+          "is_new": true,
+          "label": "CDGFSS Campus Television (Campus TV department account)",
+          "ownership": "department",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/cdgfss_ctv/"
+        },
+        {
+          "evidence_text": "YouTube displays the channel name CDGFSS Campus Television and handle @CDGFSSCampusTelevision; the indexed About description states, “The Official YouTube Channel of CDGFSS Campus TV.”",
+          "evidence_url": "https://www.youtube.com/c/CDGFSSCampusTelevision/about",
+          "is_new": true,
+          "label": "CDGFSS Campus Television (official Campus TV channel)",
+          "ownership": "department",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@CDGFSSCampusTelevision"
+        }
+      ],
+      "existing_link_issues": [
+        {
+          "evidence_text": "The association's own About Us page identifies it as 迦密主恩中學校友會, established to connect alumni with their alma mater and support the school. Preserve the account as an alumni link, label it accordingly, and deduplicate the URL variant.",
+          "evidence_url": "https://cdgfssaa.wixsite.com/officialwebsite/aboutus",
+          "issue": "The current social list places the CDGFSS Alumni Association page among the school's Facebook links without an alumni-only label; it is not school-run. The record also includes the same profile with ?wid=45, a duplicate URL variant.",
+          "platform": "facebook",
+          "recommended_action": "relabel",
+          "url": "https://www.facebook.com/cdgfssaa/"
+        }
+      ],
+      "platform_checks": [
+        {
+          "notes": "Verified the listed school page https://www.facebook.com/cdgfss/ as Carmel Divine Grace Foundation Secondary School (School Official Page); search-indexed page metadata links it to the school's website and contact details. The direct Facebook fetch showed a login wall, so page content was not fully inspected live. The other listed Facebook profile, /cdgfssaa/, is the alumni association, not the school.",
+          "platform": "facebook",
+          "status": "verified"
+        },
+        {
+          "notes": "Verified the listed school profile @cdgfss_official through the school's Facebook cross-link and its indexed profile identity. The listed @cdgfss_cfc_careers profile identifies the Careers and Further Studies Committee; it is a department account. Also found @cdgfss_ctv, identifying itself as CDGFSS Campus Television, but the direct Instagram fetch was login-blocked. School and department account discovery is supported by indexed account identity and the school's affiliated Campus TV channel; not all Instagram content was accessible live.",
+          "platform": "instagram",
+          "status": "verified"
+        },
+        {
+          "notes": "Verified the additional CDGFSS Campus Television channel. Its YouTube page displays the channel title and @CDGFSSCampusTelevision handle; the indexed About description says it is the official YouTube channel of CDGFSS Campus TV.",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "No school-run Xiaohongshu account was verified in focused searches or the official-site pages reviewed. A surfaced profile, https://www.xiaohongshu.com/user/profile/65d81383000000000503104c, identifies itself as QueenVicMarket维妈 in Australia and is unrelated. This is not evidence that no school account exists.",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "149",
+      "school_name": "迦密主恩中學",
+      "visited_sources": [
+        "https://www.cdgfss.edu.hk/",
+        "https://www.cdgfss.edu.hk/tc/index.php",
+        "https://www.cdgfss.edu.hk/en/index.php",
+        "https://www.cdgfss.edu.hk/tc/new.php?wid=42&cid=14",
+        "https://www.cdgfss.edu.hk/en/content.php?wid=28",
+        "https://cdgfss.edu.hk/en/news-details.php?wid=42&id=548&cid=14&page=6",
+        "https://www.facebook.com/cdgfss/",
+        "https://www.facebook.com/cdgfss/photos/1100851105564972/",
+        "https://www.facebook.com/cdgfssaa/",
+        "https://cdgfssaa.wixsite.com/officialwebsite/aboutus",
+        "https://www.instagram.com/cdgfss_official/",
+        "https://www.instagram.com/cdgfss_cfc_careers/",
+        "https://www.instagram.com/cdgfss_ctv/",
+        "https://cdgfsscareerandlifeplanning.webs.com/",
+        "https://www.youtube.com/c/cdgfsscampustelevision",
+        "https://www.youtube.com/c/CDGFSSCampusTelevision/about",
+        "https://www.youtube.com/@CDGFSSCampusTelevision",
+        "https://www.xiaohongshu.com/user/profile/65d81383000000000503104c"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "Fetched post under the cyt.edu.hk account path invites families to the school's 30th-anniversary open day at 順德聯誼總會鄭裕彤中學, specifying the event date and school-campus venue. This is school-specific operational content. The profile root itself returned a login wall.",
+          "evidence_url": "https://www.facebook.com/cyt.edu.hk/posts/-%E9%A0%86%E5%BE%B7%E8%81%AF%E8%AA%BC%E7%B8%BD%E6%9C%83%E9%84%AD%E8%A3%95%E5%BD%A4%E4%B8%AD%E5%AD%B8-30%E9%80%B1%E5%B9%B4%E6%A0%A1%E6%85%B6%E9%96%8B%E6%94%BE%E6%97%A5%E6%9A%A8%E5%8D%87%E4%B8%AD%E8%B3%87%E8%A8%8A%E6%97%A5-%E5%90%84%E4%BD%8D%E5%B0%8F%E5%AD%B8%E5%90%8C%E5%AD%B8%E5%8F%8A%E5%AE%B6%E9%95%B7%E6%B3%A8%E6%84%8F%E6%83%B3%E8%A6%AA%E8%BA%AB%E9%AB%94%E9%A9%97%E6%88%91%E5%80%91%E7%9A%84%E5%89%B5%E7%A7%91%E7%89%B9%E8%89%B2%E8%88%87%E6%A0%A1%E5%9C%92%E6%B4%BB%E5%8A%9B%E7%82%BA%E5%8D%87%E4%B8%AD%E5%81%9A%E5%A5%BD%E5%85%85%E5%88%86%E6%BA%96%E5%82%99%E8%AA%A0%E9%82%80%E5%A4%A7%E5%AE%B6%E6%96%BC12%E6%9C%885%E6%97%A5%E8%92%9E%E8%87%A8%E9%A0%86%E5%BE%B7/122307788174221442/",
+          "is_new": false,
+          "label": "順德聯誼總會鄭裕彤中學 (@cyt.edu.hk)",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/cyt.edu.hk/"
+        },
+        {
+          "evidence_text": "Public post by cyt.edu.hk announces the school's 30th-anniversary logo-coloring competition, says results will be published on the school website, and provides teacher and vice-principal contact details at cyt.edu.hk. The profile fetch itself returned a login screen.",
+          "evidence_url": "https://www.instagram.com/p/DdsEZubDGBV/",
+          "is_new": false,
+          "label": "順德聯誼總會鄭裕彤中學 (@cyt.edu.hk)",
+          "ownership": "school",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/cyt.edu.hk/"
+        },
+        {
+          "evidence_text": "Fetched channel title is 順德聯誼總會鄭裕彤中學, handle @cyt_ss, with school-specific videos including the 26th sports day and other school events.",
+          "evidence_url": "https://www.youtube.com/@cyt_ss",
+          "is_new": false,
+          "label": "順德聯誼總會鄭裕彤中學 (@cyt_ss)",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@cyt_ss"
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "The listed profile https://www.facebook.com/cyt.edu.hk/ was fetched but returned only Facebook's login page. A post under that exact profile path was fetched and promotes the school's 30th-anniversary open day at its campus, supporting school ownership; full profile-level inspection remains blocked.",
+          "platform": "facebook",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "The listed profile https://www.instagram.com/cyt.edu.hk/ returned only a login screen. A public post by cyt.edu.hk was fetchable and gives school-specific anniversary competition details and staff contact information, supporting school ownership; this is not a full live-profile check.",
+          "platform": "instagram",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "The listed channel was directly fetched as 順德聯誼總會鄭裕彤中學 (@cyt_ss), with videos about school events and sports days.",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "Focused searches on the official domain and school name did not identify an attributable school-run profile. No account is asserted to be nonexistent.",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "327",
+      "school_name": "順德聯誼總會鄭裕彤中學",
+      "visited_sources": [
+        "http://www.cyt.edu.hk",
+        "https://www.facebook.com/cyt.edu.hk/",
+        "https://www.instagram.com/cyt.edu.hk/",
+        "https://www.youtube.com/@cyt_ss",
+        "https://cyt.edu.hk/tc/contact",
+        "https://cyt.edu.hk/tc/%E5%AE%B6%E9%95%B7%E6%95%99%E5%B8%AB%E6%9C%83-1",
+        "https://cyt.edu.hk/tc/awards/%E5%AD%B8%E6%A0%A1%E5%8B%95%E6%85%8B/2026",
+        "https://www.instagram.com/p/DdsEZubDGBV/",
+        "https://www.facebook.com/ctv.cytss/",
+        "https://www.facebook.com/cyt.edu.hk/posts/-%E9%A0%86%E5%BE%B7%E8%81%AF%E8%AA%BC%E7%B8%BD%E6%9C%83%E9%84%AD%E8%A3%95%E5%BD%A4%E4%B8%AD%E5%AD%B8-30%E9%80%B1%E5%B9%B4%E6%A0%A1%E6%85%B6%E9%96%8B%E6%94%BE%E6%97%A5%E6%9A%A8%E5%8D%87%E4%B8%AD%E8%B3%87%E8%A8%8A%E6%97%A5-%E5%90%84%E4%BD%8D%E5%B0%8F%E5%AD%B8%E5%90%8C%E5%AD%B8%E5%8F%8A%E5%AE%B6%E9%95%B7%E6%B3%A8%E6%84%8F%E6%83%B3%E8%A6%AA%E8%BA%AB%E9%AB%94%E9%A9%97%E6%88%91%E5%80%91%E7%9A%84%E5%89%B5%E7%A7%91%E7%89%B9%E8%89%B2%E8%88%87%E6%A0%A1%E5%9C%92%E6%B4%BB%E5%8A%9B%E7%82%BA%E5%8D%87%E4%B8%AD%E5%81%9A%E5%A5%BD%E5%85%85%E5%88%86%E6%BA%96%E5%82%99%E8%AA%A0%E9%82%80%E5%A4%A7%E5%AE%B6%E6%96%BC12%E6%9C%885%E6%97%A5%E8%92%9E%E8%87%A8%E9%A0%86%E5%BE%B7/122307788174221442/",
+        "https://cyt.edu.hk/sites/default/files/files/2023-2024nian_du_xue_xiao_gai_lan_.pdf"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "The school's own 2023-02-09 news item says, 'Our school has officially launched a Facebook page' for school news and campus life. The listed CCCSSOFFICIAL URL has a school-name identity and school-content results; direct Facebook fetch is login-gated, so the account page itself could not be live-read.",
+          "evidence_url": "https://www.cccss.edu.hk/en/news/view?id=3",
+          "is_new": false,
+          "label": "Cheng Chek Chee Secondary School official Facebook page",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/CCCSSOFFICIAL/"
+        },
+        {
+          "evidence_text": "The search-indexed profile bio identifies itself as '新界西貢坑口區鄭植之中學官方資訊平台' and lists the school's address, telephone, and enquiry@cccss.edu.hk email. Direct fetch returned only Instagram's login page, so profile content could not be live-checked.",
+          "evidence_url": "https://www.instagram.com/cccss_official/",
+          "is_new": false,
+          "label": "新界西貢坑口區鄭植之中學 official information platform",
+          "ownership": "school",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/cccss_official/"
+        },
+        {
+          "evidence_text": "The accessible channel identifies as 鄭植之中學 CCCSS, @CCCSSMedia, links to cccss.edu.hk, and hosts school-specific videos. The official principal-message page welcomes users to subscribe to the school's YouTube channel, and the official campus-video page lists school videos.",
+          "evidence_url": "https://www.youtube.com/channel/UCzbtX526JoNvfDlHDajGJ9g",
+          "is_new": true,
+          "label": "鄭植之中學 CCCSS (@CCCSSMedia) — school media/video channel",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/channel/UCzbtX526JoNvfDlHDajGJ9g"
+        },
+        {
+          "evidence_text": "The accessible profile is titled 鄭植之中學, describes a Hong Kong school beside HKUST with a school-specific mission, and displays many posts apparently about that school. No official school-site link or independent authoritative ownership confirmation was found, so it is retained as an existing listed link but not verified as school-run.",
+          "evidence_url": "https://www.xiaohongshu.com/user/profile/660ba8c7000000000600e524",
+          "is_new": false,
+          "label": "鄭植之中學 profile (claimed school account; ownership unverified)",
+          "ownership": "uncertain",
+          "platform": "xiaohongshu",
+          "url": "https://www.xiaohongshu.com/user/profile/660ba8c7000000000600e524"
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "Official school pages confirm a Facebook page was officially launched and invite users to follow it. The listed CCCSSOFFICIAL profile matches the school's name and school posts in search indexing, but direct Facebook fetch returned only a login shell; exact profile content could not be live-checked.",
+          "platform": "facebook",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "The listed @cccss_official profile is search-indexed with the school's full name, an 'official information platform' description, and matching school address, phone, and email. Direct Instagram fetch returned only a login shell, so live profile content could not be independently fetched.",
+          "platform": "instagram",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "The channel is accessible and identifies as 鄭植之中學 CCCSS / @CCCSSMedia, links to cccss.edu.hk, and contains school videos. The official school site invites users to subscribe to its YouTube channel and the official campus-video page lists school video content. No separate CTV/department account was confirmed.",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "The currently listed profile is publicly accessible, titled 鄭植之中學, gives a school-specific description, and features numerous apparent school posts. However, no authoritative school-site link or cross-reference to this profile was found, so school ownership remains unverified; this is not evidence that the account is nonexistent.",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "403",
+      "school_name": "新界西貢坑口區鄭植之中學",
+      "visited_sources": [
+        "http://www.cccss.edu.hk",
+        "https://www.cccss.edu.hk/",
+        "http://www.cccss.edu.hk/robots.txt",
+        "http://www.cccss.edu.hk/sitemap.xml",
+        "https://www.cccss.edu.hk/en/news/view?id=3",
+        "https://www.cccss.edu.hk/zh_tw/news/view?id=3",
+        "https://www.cccss.edu.hk/zh_tw/site/view?name=%E6%A0%A1%E9%95%B7%E7%9A%84%E8%A9%B1&principalMessageID=6",
+        "https://www.cccss.edu.hk/zh_tw/site/view?name=%E5%BD%B1%E7%89%87%E9%9B%86",
+        "https://www.cccss.edu.hk/zh_tw/site/view?name=%E8%81%AF%E7%B5%A1%E6%88%91%E5%80%91",
+        "https://www.cccss.edu.hk/zh_tw/photoAlbums/view?id=522",
+        "https://www.facebook.com/CCCSSOFFICIAL/",
+        "https://www.instagram.com/cccss_official/",
+        "https://www.youtube.com/channel/UCzbtX526JoNvfDlHDajGJ9g",
+        "https://www.xiaohongshu.com/user/profile/660ba8c7000000000600e524"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "The post is titled '【圓玄三中】升中資訊日暨學校開放日 / HKTAYY3 Information day and Open House'; it names the full school in Chinese and English and gives the school's registration link and enquiry phone number.",
+          "evidence_url": "https://www.facebook.com/hktayy3/posts/10163474438057094/",
+          "is_new": true,
+          "label": "香港道教聯合會圓玄學院第三中學 official page",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/hktayy3"
+        },
+        {
+          "evidence_text": "The channel header links to hktayy3.edu.hk; recent videos cover school broadcasts, school subjects, and school interviews. This is the existing listed channel normalized to its canonical channel URL.",
+          "evidence_url": "https://www.youtube.com/@yy3tv",
+          "is_new": false,
+          "label": "YY3TV／校園電視台 (school CTV/media channel)",
+          "ownership": "department",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@yy3tv"
+        }
+      ],
+      "existing_link_issues": [
+        {
+          "evidence_text": "The foundation's own website describes its mission as providing educational services and funding for children and youth in need and lists its own charitable programs, establishing a separate organization rather than a school account.",
+          "evidence_url": "https://joyousfoundation.org.hk/",
+          "issue": "This is the separate Joyous Foundation／樂兒計劃成長基金 charity page, not the school's official page; it may be a partner/supporter, but should not be presented as a school-run social account.",
+          "platform": "facebook",
+          "recommended_action": "remove",
+          "url": "https://www.facebook.com/JoyousFoundation"
+        },
+        {
+          "evidence_text": "Search results identify the matching handle @alancwlai as 賴俊榮校長. A school-page post also refers to '俊榮校長 賴'; direct profile fetching was unavailable, so the personal-account identification is based on indexed public profile attribution rather than a full live profile check.",
+          "evidence_url": "https://www.instagram.com/alancwlai/",
+          "issue": "The handle is identified in search as principal 賴俊榮's personal profile, not a school-managed account; if retained, label it as the principal's personal/related page rather than the school's Facebook account.",
+          "platform": "facebook",
+          "recommended_action": "relabel",
+          "url": "https://www.facebook.com/alancwlai",
+          "label": "校長相關個人頁面（非學校官方；Facebook 歸屬未核實）"
+        },
+        {
+          "evidence_text": "The post says 'The DWC Final 2026 in Dublin has successfully concluded' and describes 238 dancers from Hong Kong and the international dance competition, with no school-account identity.",
+          "evidence_url": "https://www.facebook.com/dwcasiancup/videos/418657927340510/",
+          "issue": "The listed URL is an individual post from a Dance World Cup account, not a school profile or school-run account; the fetched post concerns the DWC Final 2026 in Dublin and dance competition results.",
+          "platform": "facebook",
+          "recommended_action": "remove",
+          "url": "https://www.facebook.com/dwcasiancup/videos/418657927340510/"
+        }
+      ],
+      "platform_checks": [
+        {
+          "notes": "Verified school page https://www.facebook.com/hktayy3 from its public school-open-house post, which identifies the school in Chinese and English and provides the school's registration/contact details. The profile root itself returned only a Facebook login wall, so the profile was not fully viewable.",
+          "platform": "facebook",
+          "status": "verified"
+        },
+        {
+          "notes": "Search surfaced school-tagged posts attributed to personal handle @alancwlai (identified in search as principal 賴俊榮), not a distinct school-managed profile. The reel identified the author handle, but the profile fetch failed; no official school/department account was verified.",
+          "platform": "instagram",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "The existing @yy3tv channel links its channel header to hktayy3.edu.hk and contains school programming; the channel operates as the school's CTV/media outlet.",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "Focused Chinese school-name/abbreviation searches and an English school-name query found no attributable school-run Xiaohongshu profile. This is not evidence that no account exists.",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "364",
+      "school_name": "香港道教聯合會圓玄學院第三中學",
+      "visited_sources": [
+        "http://www.hktayy3.edu.hk",
+        "https://www.hktayy3.edu.hk",
+        "https://www.hktayy3.edu.hk/PressRelease3/List/pressRelease/3/23",
+        "https://www.facebook.com/hktayy3",
+        "https://www.facebook.com/hktayy3/posts/10163474438057094/",
+        "https://www.youtube.com/@yy3tv",
+        "https://www.facebook.com/hktayy3library/",
+        "https://www.facebook.com/YY3STEAM/",
+        "https://www.instagram.com/reel/DZwPR31Tc9b/",
+        "https://www.instagram.com/alancwlai/",
+        "https://www.facebook.com/JoyousFoundation",
+        "https://joyousfoundation.org.hk/",
+        "https://www.facebook.com/alancwlai",
+        "https://www.facebook.com/dwcasiancup/videos/418657927340510/",
+        "https://www.facebook.com/pages/香港道教聯合會圓玄學院第三中學/102259658830377",
+        "https://www.facebook.com/hktayy3/videos/瑞午安康說好圓玄三中優質教育故事香港道教聯合會圓玄學院第三中學-圓玄三中-hktayy3-yy3-圓夢賞飛/1033332252598742/"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "A notice hosted on the school's own domain identifies its Facebook link as facebook.com/mcdhedu/ and names the school's Instagram account. Direct Facebook fetch returned only a login shell, so live page content was inaccessible.",
+          "evidence_url": "https://www.mcdhmc.edu.hk/sites/default/files/notice/126_5yue_shang_xun_jia_chang_tong_gao_.pdf",
+          "is_new": false,
+          "label": "MCDH official school Facebook page",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/mcdhedu/"
+        },
+        {
+          "evidence_text": "The school's own hosted notice explicitly gives “MCDH Instagram 帳戶名稱：mcdhmc.official.” The school's 19 March 2025 launch announcement was also posted at instagram.com/p/DHX19K9sAS3/ by mcdhmc.official; Instagram content fetching was limited by login prompts.",
+          "evidence_url": "https://www.mcdhmc.edu.hk/sites/default/files/notice/126_5yue_shang_xun_jia_chang_tong_gao_.pdf",
+          "is_new": false,
+          "label": "MCDH official school Instagram (@mcdhmc.official)",
+          "ownership": "school",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/mcdhmc.official/"
+        },
+        {
+          "evidence_text": "The accessible channel is titled “MCDH Channel” and describes itself as “馬錦明慈善基金馬陳端喜紀念中學 - 校園生活頻道”; it links the school's mcdhmc.edu.hk domain. The school's official video page labels the section “MCDH CHANNEL.” Listed channel-ID and legacy /user URLs refer to this same channel.",
+          "evidence_url": "https://www.youtube.com/@MCDHChannel",
+          "is_new": false,
+          "label": "MCDH Channel — school campus-life / CTV channel",
+          "ownership": "department",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@MCDHChannel"
+        },
+        {
+          "evidence_text": "The school's official news index lists “19/03/2025 馬中登陸小紅書平台.” The MCDH YouTube channel/about listing includes a Xiaohongshu profile URL with this exact profile ID. Xiaohongshu itself returned only a generic Explore/app prompt, so profile details could not be live-checked.",
+          "evidence_url": "https://www.mcdhmc.edu.hk/tc/latest_news",
+          "is_new": false,
+          "label": "MCDH official Xiaohongshu account (profile ID 6791ab07000000000d0086ed)",
+          "ownership": "school",
+          "platform": "xiaohongshu",
+          "url": "https://www.xiaohongshu.com/user/profile/6791ab07000000000d0086ed"
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "Existing school page https://www.facebook.com/mcdhedu/ is corroborated by the school's own hosted parent notice. Fetch displayed only Facebook's login shell, so profile content and current activity were not independently checked live.",
+          "platform": "facebook",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "Existing @mcdhmc.official account is identified in a school-hosted notice and the school's own Instagram post URL resolves to that username. Instagram fetches displayed login prompts/limited post content; no full live-profile check is claimed.",
+          "platform": "instagram",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "Public channel @MCDHChannel is accessible. Its description identifies it as 馬錦明慈善基金馬陳端喜紀念中學's 校園生活頻道 and links mcdhmc.edu.hk; the official school site has an MCDH CHANNEL/video section. This is the school's campus-life/CTV channel. The listed /channel/UC7JAMzRAx9x18zKjBT5j5bQ and /user/MCDHChannel URLs resolve to the same channel.",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "The official school news index lists the 19/03/2025 item 馬中登陸小紅書平台, and the school's YouTube channel/about listing references the same profile ID 6791ab07000000000d0086ed. Xiaohongshu fetch returned only a generic Explore/app prompt without account details; no full live-profile check is claimed.",
+          "platform": "xiaohongshu",
+          "status": "access_blocked"
+        }
+      ],
+      "school_id": "209",
+      "school_name": "馬錦明慈善基金馬陳端喜紀念中學",
+      "visited_sources": [
+        "http://www.mcdhmc.edu.hk/",
+        "https://www.mcdhmc.edu.hk/",
+        "https://www.mcdhmc.edu.hk/tc/latest_news",
+        "https://www.mcdhmc.edu.hk/tc/latest_news/2025",
+        "https://www.mcdhmc.edu.hk/tc/latest_news/void%280%29%3B/void(0)%3B",
+        "https://www.mcdhmc.edu.hk/tc/video/%E9%A6%AC%E4%B8%AD2024-2025%E5%B9%B4%E5%BA%A6%E6%B4%BB%E5%8B%95%E5%9B%9E%E9%A1%A7",
+        "https://www.mcdhmc.edu.hk/sites/default/files/notice/126_5yue_shang_xun_jia_chang_tong_gao_.pdf",
+        "https://www.mcdhmc.edu.hk/sites/default/files/notice/105_11yue_xia_xun_jia_chang_tong_gao_.pdf",
+        "https://www.facebook.com/mcdhedu/",
+        "https://www.instagram.com/mcdhmc.official/",
+        "https://www.instagram.com/p/DHX19K9sAS3/",
+        "https://www.youtube.com/channel/UC7JAMzRAx9x18zKjBT5j5bQ/about",
+        "https://www.youtube.com/user/MCDHChannel",
+        "https://www.youtube.com/@MCDHChannel",
+        "https://www.xiaohongshu.com/user/profile/6791ab07000000000d0086ed"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "The indexed profile identifies itself as 仁濟醫院靚次伯紀念中學Official and shows the school's matching address, lcp.edu.hk, telephone and contact details. Direct fetch was limited to a logged-out screen.",
+          "evidence_url": "https://www.facebook.com/ychlcp/",
+          "is_new": false,
+          "label": "仁濟醫院靚次伯紀念中學Official",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/ychlcp/"
+        },
+        {
+          "evidence_text": "The indexed profile is named 仁濟醫院靚次伯紀念中學 and its bio describes the school as founded in 1996 and operated by Yan Chai Hospital. Direct fetch was limited to Instagram's login screen.",
+          "evidence_url": "https://www.instagram.com/ychlcp/",
+          "is_new": false,
+          "label": "仁濟醫院靚次伯紀念中學 (@ychlcp)",
+          "ownership": "school",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/ychlcp/"
+        },
+        {
+          "evidence_text": "Fetched channel identifies as @YCHLCP and displays school-titled videos including its school introduction and anniversary/sports-day coverage. The input's /user/YCHLCP URL refers to this same channel identity.",
+          "evidence_url": "https://www.youtube.com/c/YCHLCP",
+          "is_new": false,
+          "label": "YCH LCP 仁濟醫院靚次伯紀念中學 (@YCHLCP)",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/channel/UCnP3UFaqOkglmUiSBauBEOA"
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "The existing profile URL is corroborated by indexed profile metadata identifying it as 仁濟醫院靚次伯紀念中學Official and showing the school address, lcp.edu.hk, and school phone. Direct fetch rendered only Facebook's logged-out page, so this is not a full live-platform check.",
+          "platform": "facebook",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "The existing profile URL is corroborated by indexed profile metadata naming 仁濟醫院靚次伯紀念中學 (@ychlcp) and a school-description bio. Direct fetch rendered only Instagram's login page, so this is not a full live-platform check.",
+          "platform": "instagram",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "The existing YCHLCP profile resolves to the channel @YCHLCP, titled YCH LCP 仁濟醫院靚次伯紀念中學; the fetched channel lists school-specific videos.",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "Focused searches using the school's Chinese and English names did not surface a verifiable school or department profile, and no Xiaohongshu link was listed in the input record. This does not establish that no account exists.",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "253",
+      "school_name": "仁濟醫院靚次伯紀念中學",
+      "visited_sources": [
+        "http://www.lcp.edu.hk",
+        "https://www.lcp.edu.hk/",
+        "https://www.lcp.edu.hk/spotlight.php",
+        "https://www.lcp.edu.hk/25th/26thvideo.html",
+        "https://www.lcp.edu.hk/news.php?cid=4",
+        "https://www.facebook.com/ychlcp/",
+        "https://www.instagram.com/ychlcp/",
+        "https://www.youtube.com/user/YCHLCP/videos",
+        "https://www.youtube.com/c/YCHLCP",
+        "https://www.youtube.com/channel/UCnP3UFaqOkglmUiSBauBEOA",
+        "https://starschools.hk/en/schools/yan-chai-hospital-lan-chi-pat-memorial-secondary-school",
+        "https://www.chsc.hk/ssp2025/sch_detail.php?lang_id=1&sch_id=253",
+        "https://www.chsc.hk/ssp2025/sch_detail.php?lang_id=2&sch_id=253"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "Search-indexed profile/posts identify this numeric page as '香海正覺蓮社佛教正覺中學BCKSS'; recent indexed posts use the school's first-person institutional voice (including '本校校舍…' and school-event notices). Profile fetch itself displayed only the Facebook login screen.",
+          "evidence_url": "https://www.facebook.com/100084998610225/",
+          "is_new": true,
+          "label": "HHCKLA Buddhist Ching Kok Secondary School BCKSS",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/100084998610225/"
+        },
+        {
+          "evidence_text": "Search-indexed profile is titled with the exact school name and its bio describes the school at Chui Ling Road, Tiu Keng Leng; an indexed post is headed '本校資訊及科技組…'. The profile is already listed in the supplied record. Direct fetch displayed only the Instagram login screen.",
+          "evidence_url": "https://www.instagram.com/bckss.bckss/",
+          "is_new": false,
+          "label": "香海正覺蓮社佛教正覺中學 BCKSS",
+          "ownership": "school",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/bckss.bckss/"
+        },
+        {
+          "evidence_text": "Fetched channel page is titled '香海正覺蓮社佛教正覺中學 BCKSS'; indexed channel videos include school-specific events such as the 2026–27 opening ceremony and campus activities.",
+          "evidence_url": "https://www.youtube.com/@bckss2646",
+          "is_new": true,
+          "label": "香海正覺蓮社佛教正覺中學 BCKSS (school channel)",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@bckss2646"
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "Search-indexed results identify the school-branded page at the public numeric profile URL and show multiple recent posts in the school's institutional voice (e.g. '本校校舍…'); direct fetch returned only Facebook login UI, so a full live-platform profile check was not possible.",
+          "platform": "facebook",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "The listed profile is indexed under the exact school name and its bio describes the school and location; an indexed post describes a school-run student competition. Direct fetch returned Instagram login UI, so a full live-platform profile check was not possible.",
+          "platform": "instagram",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "The channel profile is accessible and titled '香海正覺蓮社佛教正覺中學 BCKSS'; indexed videos include school-branded events and campus activities. No separate CTV department channel was identified; official school information confirms Campus TV is a school facility, not a separate social account.",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "Focused searches did not surface an attributable school account. A candidate profile returned by search is a photographer named 邹邹啊, unrelated to the school. This is not evidence that the school has no Xiaohongshu account.",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "398",
+      "school_name": "香海正覺蓮社佛教正覺中學",
+      "visited_sources": [
+        "http://www.bckss.edu.hk",
+        "https://www.bckss.edu.hk",
+        "https://www.bckss.edu.hk/page/592",
+        "https://www.bckss.edu.hk/page/191",
+        "https://www.bckss.edu.hk/gallery",
+        "https://www.chsc.hk/ssp2025/sch_detail.php?lang_id=1&sch_id=398",
+        "https://www.facebook.com/p/%E9%A6%99%E6%B5%B7%E6%AD%A3%E8%A6%BA%E8%93%AE%E7%A4%BE%E4%BD%9B%E6%95%99%E6%AD%A3%E8%A6%BA%E4%B8%AD%E5%AD%B8-BCKSS-100084998610225/",
+        "https://www.facebook.com/100084998610225/",
+        "https://www.facebook.com/BCKLAS/",
+        "https://www.instagram.com/bckss.bckss/",
+        "https://www.youtube.com/@bckss2646",
+        "https://www.xiaohongshu.com/user/profile/62b2ebd8000000001b0248c7"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "Fetched page heading is 西貢崇真天主教學校-中學部, categorized as 'Page · School', lists sts.edu.hk and sts-mail@hkedcity.net, and carries current school activity posts. The numeric ID on the page is 100063998102651.",
+          "evidence_url": "https://www.facebook.com/p/%E8%A5%BF%E8%B2%A2%E5%B4%87%E7%9C%9F%E5%A4%A9%E4%B8%BB%E6%95%99%E5%AD%B8%E6%A0%A1-%E4%B8%AD%E5%AD%B8%E9%83%A8-100063998102651/",
+          "is_new": true,
+          "label": "西貢崇真天主教學校-中學部",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/100063998102651/"
+        },
+        {
+          "evidence_text": "The indexed profile result gives the exact handle and school name and its biography says, '此為西貢崇真天主教學校(中學部) 官方帳號' (this is the official account of the secondary section). Direct fetch displayed only the login prompt; the current data record already lists this profile with tracking parameters, removed here for the canonical URL. Targeted raw-HTML extraction also found the exact profile/channel destination among this official page’s social or Campus TV links.",
+          "evidence_url": "https://www.sts.edu.hk/en/",
+          "is_new": false,
+          "label": "西貢崇真天主教學校(中學部) (@sts.official___)",
+          "ownership": "school",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/sts.official___/",
+          "supporting_evidence_urls": [
+            "https://www.instagram.com/sts.official___/"
+          ]
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "Verified a secondary-section school page at https://www.facebook.com/100063998102651/. The fetched Facebook page identifies 西貢崇真天主教學校-中學部, labels it Page · School, and lists sts.edu.hk plus the school email. This was not in the current record; the public numeric profile fetch itself showed a login wall, but the page's public p/ URL rendered profile details.",
+          "platform": "facebook",
+          "status": "verified"
+        },
+        {
+          "notes": "The current record already lists @sts.official___, and the indexed public profile result names 西貢崇真天主教學校(中學部) and states in its bio that it is the school's official account. Direct profile fetch returned only Instagram's login prompt, so live profile content was not independently inspectable.",
+          "platform": "instagram",
+          "status": "verified"
+        },
+        {
+          "notes": "The official school's indexed pages show a 'YouTube (Sec Section)' link and an STS Live Channel page mentioning a YouTube Live direct link, but fetch did not expose the outbound canonical channel URL and focused searches did not resolve an attributable secondary-section channel. Results identifying STCPS_TV were explicitly for the primary section and excluded. No channel URL inferred.",
+          "platform": "youtube",
+          "status": "not_verified"
+        },
+        {
+          "notes": "Focused searches did not find an authoritative school link or attributable official RedNote profile. A returned candidate user-profile URL, when fetched, showed only Xiaohongshu legal/footer boilerplate and no profile identity; it is not included. Platform/profile verification was therefore unavailable, not evidence that no account exists.",
+          "platform": "xiaohongshu",
+          "status": "access_blocked"
+        }
+      ],
+      "school_id": "357",
+      "school_name": "西貢崇真天主教學校（中學部）",
+      "visited_sources": [
+        "https://www.sts.edu.hk",
+        "https://www.sts.edu.hk/",
+        "https://www.sts.edu.hk/en/",
+        "https://www.sts.edu.hk/tc/sts-live-channel",
+        "https://www.sts.edu.hk/en/sts-live-channel",
+        "https://sts.edu.hk/en/content.php?wid=33",
+        "https://www.facebook.com/p/%E8%A5%BF%E8%B2%A2%E5%B4%87%E7%9C%9F%E5%A4%A9%E4%B8%BB%E6%95%99%E5%AD%B8%E6%A0%A1-%E4%B8%AD%E5%AD%B8%E9%83%A8-100063998102651/",
+        "https://www.facebook.com/100063998102651/",
+        "https://www.instagram.com/sts.official___/",
+        "https://www.instagram.com/sts.official___/?hl=en",
+        "https://www.xiaohongshu.com/user/profile/65cc63c6000000000401e541",
+        "https://www.chsc.hk/ssp2025/sch_detail.php?lang_id=2&sch_id=357&return_page=sch_list.php%3Flang_id%3D2%26chg_district_id%3D1%26search_mode%3D%26frmMode%3Dpagebreak%26sort_id%3D-1%26district_id%3D10",
+        "https://www.youtube.com/playlist?list=PLf5WrlDkndZN1FCV8uvXfk9eR-rhM7u6D"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "This existing listed profile appears in search as “天主教鳴遠中學 | Tseung Kwan O Hong Kong” and describes the school as Catholic Ming Yuen Secondary School, founded in 1950. Fetching the profile returned only a login wall, so public-page details could not be independently loaded live.",
+          "evidence_url": "https://www.facebook.com/cmyss.1950/",
+          "is_new": false,
+          "label": "天主教鳴遠中學",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/cmyss.1950/"
+        },
+        {
+          "evidence_text": "The existing link resolves in search as “天主教鳴遠中學校友會”; its indexed posts promote alumni homecoming and alumni dinners. Facebook fetch returned only a login wall. This is an alumni association, not a school-run social account.",
+          "evidence_url": "https://www.facebook.com/cmyssaa/",
+          "is_new": false,
+          "label": "天主教鳴遠中學校友會（校友會）",
+          "ownership": "alumni",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/cmyssaa/"
+        },
+        {
+          "evidence_text": "The fetched Catholic Ming Yuen Secondary School YouTube channel directly links the exact Instagram profile URL in its channel header; Instagram search-result profile text also names 天主教鳴遠中學 and describes its school motto. Direct Instagram fetch showed only a login wall.",
+          "evidence_url": "https://www.youtube.com/@cmyss_mingyuen",
+          "is_new": false,
+          "label": "天主教鳴遠中學 (@ming_yuen_cmyss)",
+          "ownership": "school",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/ming_yuen_cmyss/"
+        },
+        {
+          "evidence_text": "Fetched channel title is “Catholic Ming Yuen Secondary School”; its description identifies 天主教鳴遠中學 and states the school's motto/spirit. It contains the school's 75th-anniversary documentary and links the school's listed Instagram profile.",
+          "evidence_url": "https://www.youtube.com/@cmyss_mingyuen",
+          "is_new": false,
+          "label": "Catholic Ming Yuen Secondary School（天主教鳴遠中學）",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@cmyss_mingyuen"
+        }
+      ],
+      "existing_link_issues": [
+        {
+          "evidence_text": "Search identifies the page as “天主教鳴遠中學校友會” and indexed posts concern alumni homecoming and dinners; direct Facebook fetch was blocked by the login wall.",
+          "evidence_url": "https://www.facebook.com/cmyssaa/",
+          "issue": "The current school record places this link among school Facebook accounts, but the profile is explicitly an alumni association. Preserve it as a listed alumni link, not as an official school account.",
+          "platform": "facebook",
+          "recommended_action": "relabel",
+          "url": "https://www.facebook.com/cmyssaa/"
+        }
+      ],
+      "platform_checks": [
+        {
+          "notes": "The listed school page https://www.facebook.com/cmyss.1950/ appears in search with the school name and school description; direct fetch returned only the Facebook login wall, so no full live-platform check. The listed /cmyssaa/ page is explicitly titled 天主教鳴遠中學校友會 and is classified as alumni, not school. Another page ID 100089066184281 appears in results under the school name and posts school news, but an official-site link was not established; it is not added.",
+          "platform": "facebook",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "The existing @ming_yuen_cmyss profile is named/described as the school in search results, and the fetched school YouTube channel cross-links the exact Instagram URL. Direct Instagram fetch returned only a login wall, so no full live-platform check.",
+          "platform": "instagram",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "Fetched existing @cmyss_mingyuen channel identifies itself as Catholic Ming Yuen Secondary School and uses the school's Chinese description; it also links the listed Instagram profile. Search surfaced a distinct channel titled 天主教鳴遠中學校園電視台 and the official website has a 鳴遠校園電視台 navigation item, but the fetched official page did not expose that channel's exact destination and the channel fetch showed a limited page, so it is not added as a verified department account.",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "Focused Chinese- and English-language searches found no identifiable school-run Xiaohongshu profile; results were generic or unrelated. This is not evidence that no account exists, and no full live-platform check is claimed.",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "337",
+      "school_name": "天主教鳴遠中學",
+      "visited_sources": [
+        "http://www.mingyuen.edu.hk",
+        "https://www.mingyuen.edu.hk/",
+        "https://www.mingyuen.edu.hk/titletwo.php?cid=78",
+        "https://www.mingyuen.edu.hk/titlethree.php?cid=157",
+        "https://www.mingyuen.edu.hk/titleeight.php?cid=44",
+        "https://www.facebook.com/cmyss.1950/",
+        "https://www.facebook.com/cmyssaa/",
+        "https://www.facebook.com/100089066184281/",
+        "https://www.facebook.com/100089066184281/photos/889679710677560/",
+        "https://www.instagram.com/ming_yuen_cmyss/",
+        "https://www.youtube.com/@cmyss_mingyuen",
+        "https://www.youtube.com/channel/UCVzjjDsxF2AOvgwWzz9uIBA",
+        "https://zh.wikipedia.org/zh-hant/天主教鳴遠中學"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "The public profile identifies itself as “LawnTV@plklfc” and “保良局羅氏基金中學 校園電視台” (the college's campus television), says it records school life and provides school information, and links LawnTV's YouTube.",
+          "evidence_url": "https://www.instagram.com/lawntv/",
+          "is_new": true,
+          "label": "LawnTV — PLK Laws Foundation College campus television",
+          "ownership": "department",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/lawntv/"
+        },
+        {
+          "evidence_text": "The channel title is “Lawn TV (PLKLFC)” and its description states “Campus TV of Po Leung Kuk Laws Foundation College”; it carries current school-event videos. The @lawntv Instagram profile links to youtube.com/@LawnTV.",
+          "evidence_url": "https://www.youtube.com/@LawnTV",
+          "is_new": true,
+          "label": "Lawn TV (PLKLFC) — college campus television",
+          "ownership": "department",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@LawnTV"
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "As of 2026-11-09, focused searches and official-site checks did not establish a school-run Facebook profile. One exact-name page identifies itself as an Unofficial Page; another Facebook result could not be independently verified because fetch returned only the login wall. No full live-platform check is claimed.",
+          "platform": "facebook",
+          "status": "not_verified"
+        },
+        {
+          "notes": "Verified @lawntv: its public bio explicitly identifies it as 保良局羅氏基金中學's campus television, describes school-life/information coverage, and links to its YouTube channel. Role: school department (campus television).",
+          "platform": "instagram",
+          "status": "verified"
+        },
+        {
+          "notes": "Verified @LawnTV: channel title “Lawn TV (PLKLFC)” and description “Campus TV of Po Leung Kuk Laws Foundation College.” The Instagram bio links to youtube.com/@LawnTV. Role: school department (campus television).",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "Focused exact-name and English searches did not produce a school-linked account. Results included general PLK sponsor content and unrelated listings, not attributable to this school. This is not a claim that no account exists.",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "14",
+      "school_name": "保良局羅氏基金中學",
+      "visited_sources": [
+        "http://www.plklfc.edu.hk",
+        "https://www.plklfc.edu.hk/",
+        "https://www.plklfc.edu.hk/en/contact-us",
+        "https://www.plklfc.edu.hk/en/latest_news",
+        "https://www.youtube.com/c/LawnTV/videos",
+        "https://www.youtube.com/@LawnTV",
+        "https://www.instagram.com/lawntv/",
+        "https://www.facebook.com/180703531968806",
+        "https://www.facebook.com/pages/Po-Leung-Kuk-Laws-Foundation-College/106334392738328",
+        "https://lawntv.wixsite.com/website"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "The channel identifies itself as 'G.T. College (Secondary) Official'; its About text describes G.T. College and links to gtcollege.edu.hk. The official school site has a G.T. Video / School Channel section.",
+          "evidence_url": "https://www.youtube.com/channel/UCGZ1EaoH8qeQxTVA0OXuJdA",
+          "is_new": true,
+          "label": "G.T. College (Secondary) Official",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@g.t.college"
+        },
+        {
+          "evidence_text": "The channel title is the school's Chinese name, its channel header links to gtcollege.edu.hk, and the channel contains school-specific videos such as G.T. book-sharing and school events.",
+          "evidence_url": "https://www.youtube.com/@gtcollege-hk",
+          "is_new": true,
+          "label": "優才（楊殷有娣）書院 school video channel",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@gtcollege-hk"
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "No school-run Facebook profile was verified. Search results produced school-name pages, but the fetched matching Chinese- and English-named pages explicitly label themselves 'Unofficial Page'; the school-specific group search result says it is not an official school group. These are not links in the current record.",
+          "platform": "facebook",
+          "status": "not_verified"
+        },
+        {
+          "notes": "The official school Students' Union page names and links its official Instagram (https://www.instagram.com/gtcollegesu/), but it is a student-union account and the current record lists no student links, so it is not included in accounts. Search surfaced @g.t.college with a school-secondary-section bio, but direct fetch returned only Instagram's login screen; without an exact official-school link to this account, it remains unverified.",
+          "platform": "instagram",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "Verified G.T. College (Secondary) Official channel and a separate school-branded 優才(楊殷有娣)書院 channel; both are linked to the official school domain on their YouTube channel pages and feature school content. The official school site also has a G.T. Video / School Channel section.",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "No attributable school account was verified. A profile URL appeared in search results but had no school-identifying result text; direct fetch led to Xiaohongshu's login-gated profile shell, so account ownership could not be checked.",
+          "platform": "xiaohongshu",
+          "status": "access_blocked"
+        }
+      ],
+      "school_id": "420",
+      "school_name": "優才（楊殷有娣）書院",
+      "visited_sources": [
+        "http://www.gtcollege.edu.hk",
+        "https://www.gtcollege.edu.hk/g-t-video/",
+        "https://www.gtcollege.edu.hk/students-union/",
+        "https://www.gtcollege.edu.hk/contact-us/",
+        "https://www.gtcollege.edu.hk/school-news-and-events/",
+        "https://www.youtube.com/channel/UCGZ1EaoH8qeQxTVA0OXuJdA",
+        "https://www.youtube.com/@gtcollege-hk",
+        "https://www.facebook.com/pages/G-T-Ellen-Yeung-College/110135075676033",
+        "https://www.facebook.com/pages/%E5%84%AA%E6%89%8D%E6%A5%8A%E6%AE%B7%E6%9C%89%E5%A8%A3%E6%9B%B8%E9%99%A2/204003449798897",
+        "https://www.facebook.com/groups/1063767371791773/",
+        "https://www.instagram.com/g.t.college/",
+        "https://www.instagram.com/gtcollegesu/",
+        "https://www.xiaohongshu.com/user/profile/6405f65b0000000029015c71",
+        "https://main.gtschool.hk/"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "The school's official Contact Us page lists ‘Facebook: Creative Secondary School.’ The direct Facebook page fetch was login-gated.",
+          "evidence_url": "https://www.css.edu.hk/contact-us",
+          "is_new": false,
+          "label": "Creative Secondary School",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/CreativeSecondarySchool/"
+        },
+        {
+          "evidence_text": "The official school website exposes Instagram in its social navigation, and the corresponding profile is titled Creative Secondary School (@creativesecondaryschool). Direct Instagram fetching returned a login prompt, so live profile details could not be reviewed. Targeted raw-HTML extraction also found the exact profile/channel destination among this official page’s social or Campus TV links.",
+          "evidence_url": "https://www.css.edu.hk/",
+          "is_new": false,
+          "label": "Creative Secondary School (@creativesecondaryschool)",
+          "ownership": "school",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/creativesecondaryschool/",
+          "supporting_evidence_urls": [
+            "https://www.css.edu.hk/"
+          ]
+        },
+        {
+          "evidence_text": "The channel description says, ‘Welcome to the official Creative Secondary School YouTube channel!’ and links css.edu.hk. The school's School Introduction Videos page lists CSS-produced school videos.",
+          "evidence_url": "https://www.youtube.com/channel/UCH_bE7WjziIQ7mQhTre0M7Q/featured",
+          "is_new": false,
+          "label": "Creative Secondary School official YouTube channel",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/channel/UCH_bE7WjziIQ7mQhTre0M7Q"
+        },
+        {
+          "evidence_text": "The school-operated Facebook announcement says the Creative Schools Continuum (Creative Primary School's Kindergarten, 啓思小學 and CSS) is on Little RedNote, names @启思中小幼连校 and says ‘Click the link below to visit our XHS.’ The linked profile identifies 啓思中小幼连校 and describes the CPSKG/CPS/CSS continuum.",
+          "evidence_url": "https://www.facebook.com/CreativeSecondarySchool/posts/%F0%9D%90%96%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%9E-%F0%9D%90%8D%F0%9D%90%A8%F0%9D%90%B0-%F0%9D%90%A8%F0%9D%90%A7-%F0%9D%90%8B%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%AD%F0%9D%90%A5%F0%9D%90%9E-%F0%9D%90%91%F0%9D%90%9E%F0%9D%90%9D%F0%9D%90%8D%F0%9D%90%A8%F0%9D%90%AD%F0%9D%90%9Ewere-excited-to-announce-that-creative-schools-continu/1515661187249919/",
+          "is_new": true,
+          "label": "啓思中小幼連校 / Creative Schools Continuum (shared K–12 account, includes CSS)",
+          "ownership": "school",
+          "platform": "xiaohongshu",
+          "url": "https://www.xiaohongshu.com/user/profile/69eef6e30000000002002801"
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "The official school contact page names Facebook: Creative Secondary School and the school-operated page publishes school content. Direct Facebook fetching returned only a login prompt; no full live-platform review is claimed.",
+          "platform": "facebook",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "The official school website exposes Instagram in its social navigation, and the listed profile is titled Creative Secondary School (@creativesecondaryschool). Direct Instagram fetching returned only a login prompt; no full live-platform review is claimed.",
+          "platform": "instagram",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "The channel describes itself as the official Creative Secondary School YouTube channel and links css.edu.hk; the school's School Introduction Videos page corroborates the school's videos. No separate CTV account was found on the reviewed page.",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "A school-operated Facebook announcement explicitly says the Creative Schools Continuum (CPSKG, CPS and CSS) is on Little RedNote, gives @启思中小幼连校 and links its profile. The profile identifies the same continuum; viewing notes requires login.",
+          "platform": "xiaohongshu",
+          "status": "verified"
+        }
+      ],
+      "school_id": "239",
+      "school_name": "啓思中學",
+      "visited_sources": [
+        "http://www.css.edu.hk",
+        "https://www.css.edu.hk/",
+        "https://www.css.edu.hk/news-events-1",
+        "https://www.css.edu.hk/school-videos",
+        "https://www.css.edu.hk/contact-us",
+        "https://www.css.edu.hk/contact-us?lang=zh",
+        "https://www.facebook.com/CreativeSecondarySchool/",
+        "https://www.facebook.com/Creative-Secondary-School-167851129895605/",
+        "https://www.facebook.com/CreativeSecondarySchool/posts/%F0%9D%90%96%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%9E-%F0%9D%90%8D%F0%9D%90%A8%F0%9D%90%B0-%F0%9D%90%A8%F0%9D%90%A7-%F0%9D%90%8B%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%AD%F0%9D%90%A5%F0%9D%90%9E-%F0%9D%90%91%F0%9D%90%9E%F0%9D%90%9D%F0%9D%90%8D%F0%9D%90%A8%F0%9D%90%AD%F0%9D%90%9Ewere-excited-to-announce-that-creative-schools-continu/1515661187249919/",
+        "https://www.instagram.com/creativesecondaryschool/",
+        "https://www.instagram.com/p/Cxo84vhv9at/",
+        "https://www.youtube.com/channel/UCH_bE7WjziIQ7mQhTre0M7Q/featured",
+        "https://www.xiaohongshu.com/user/profile/69eef6e30000000002002801"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "The official school homepage directly links this exact Facebook school-profile URL in its social icons; its YouTube and Instagram icons point to the already-listed TKO school accounts.",
+          "evidence_url": "https://www.tko.heungto.net/en/",
+          "is_new": true,
+          "label": "將軍澳香島中學 official Facebook page",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/%E5%B0%87%E8%BB%8D%E6%BE%B3%E9%A6%99%E5%B3%B6%E4%B8%AD%E5%AD%B8-HEUNG-TO-SECONDARY-SCHOOL-TSEUNG-KWAN-O-257798224273083/",
+          "supporting_evidence_urls": [
+            "https://www.tko.heungto.net/",
+            "https://www.facebook.com/tkohtss2003/",
+            "https://www.facebook.com/tkohtss/"
+          ]
+        },
+        {
+          "evidence_text": "The indexed Instagram profile is named TKO HTSS-將軍澳香島中學 and its bio lists phone 26233039 and schoolmail@htss.edu.hk; the school's official contact page confirms the same telephone and email. The profile fetch itself returned only a login wall.",
+          "evidence_url": "https://www.instagram.com/htsstko/",
+          "is_new": false,
+          "label": "TKO HTSS-將軍澳香島中學",
+          "ownership": "school",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/htsstko/",
+          "supporting_evidence_urls": [
+            "https://www.instagram.com/htsstko/",
+            "https://www.tko.heungto.net/en/content.php?wid=37"
+          ]
+        },
+        {
+          "evidence_text": "The fetched channel is @tkohtss and its description says it is one of the schools under Heung To Education Organization and identifies its school mission; its channel header links to tko.heungto.net. The current record's /user/tkohtss URL displayed the same school's video titles, so this is the existing channel in canonical handle form.",
+          "evidence_url": "https://www.youtube.com/@tkohtss",
+          "is_new": false,
+          "label": "將軍澳香島中學 official YouTube channel",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@tkohtss",
+          "supporting_evidence_urls": [
+            "https://www.youtube.com/@tkohtss",
+            "https://www.youtube.com/user/tkohtss"
+          ]
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "The official school's Social MEDIA footer lists Facebook, and focused search surfaced the page named 將軍澳香島中學-HEUNG TO SECONDARY SCHOOL (TSEUNG KWAN O) at https://www.facebook.com/tkohtss2003/. Facebook fetches exposed only a login wall, so the live profile could not be independently inspected; identification rests on the school's Facebook reference and matching page identity, not a full live-platform check.",
+          "platform": "facebook",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "The listed profile https://www.instagram.com/htsstko/ is titled TKO HTSS-將軍澳香島中學 and its indexed bio gives phone 26233039 and schoolmail@htss.edu.hk, matching the official school's contact details. Fetch returned only an Instagram login wall, so the current live profile was not inspectable.",
+          "platform": "instagram",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "The existing /user/tkohtss link resolves to the school's @tkohtss profile, whose fetched description identifies 將軍澳香島中學 and links to tko.heungto.net. The school's site also lists Campus TV; the fetched @htcptv profile explicitly says it is Heung To's official YouTube channel and that its school Campus TV produces content. Targeted HTML extraction confirmed the TKO footer links /user/tkohtss only; the broader Heung To CTV account is excluded because its connection to this campus was not confirmed.",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "Focused searches in Chinese and English did not surface an identifiable school-run Xiaohongshu profile or an official-school link to one. This is not evidence that no account exists.",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "157",
+      "school_name": "將軍澳香島中學",
+      "visited_sources": [
+        "http://www.tko.heungto.net",
+        "https://www.tko.heungto.net/",
+        "http://www.tko.heungto.net/contact-us",
+        "https://www.tko.heungto.net/en/content.php?wid=37",
+        "https://www.tko.heungto.net/en/content.php?wid=33",
+        "https://www.tko.heungto.net/en/content.php?wid=5",
+        "https://www.tko.heungto.net/en/news_detail.php?wid=25&id=185&cid=5",
+        "https://www.tko.heungto.net/tc/index.php",
+        "https://www.facebook.com/tkohtss2003/",
+        "https://www.facebook.com/tkohtss/",
+        "https://www.instagram.com/htsstko/",
+        "https://www.youtube.com/user/tkohtss",
+        "https://www.youtube.com/@tkohtss",
+        "https://www.youtube.com/@htcptv",
+        "https://www.youtube.com/channel/UCDFEmJBrjWYguoYWM3TkF2A/videos",
+        "https://www.youtube.com/c/campustvHT/about",
+        "https://starschools.hk/schools/heung-to-secondary-school-tseung-kwan-o"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "The indexed Facebook page title is 'Evangel College 播道書院' and its public listing gives No. 7, Chi Shin Street, Tseung Kwan O, matching the school. Direct fetch only returned Facebook's login/sign-up page, so live profile content could not be inspected. This is the existing link in the supplied record.",
+          "evidence_url": "https://www.facebook.com/100057473709834",
+          "is_new": false,
+          "label": "Evangel College 播道書院 (Facebook page)",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/100057473709834"
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "The existing profile URL is the only Facebook link in the record. Search indexing identifies it as 'Evangel College 播道書院' and shows No. 7, Chi Shin Street, matching the school's identity/address; direct fetch returned only Facebook's login/sign-up interface, so live page contents could not be checked.",
+          "platform": "facebook",
+          "status": "access_blocked"
+        },
+        {
+          "notes": "Focused school-specific searches did not surface a school-run profile. Results were location/Explore pages, posts, and other non-school accounts; a location page is not an account. No verified profile link was found on the official site.",
+          "platform": "instagram",
+          "status": "not_verified"
+        },
+        {
+          "notes": "No official Evangel College YouTube channel was verified. Searches surfaced the school-associated @ECLibrary channel and an explicitly self-labeled 'unoffical' channel, but no official school-site cross-link to either; neither is included. The official EdFlix/EC Media streaming service is not a YouTube account.",
+          "platform": "youtube",
+          "status": "not_verified"
+        },
+        {
+          "notes": "Focused Chinese and English searches did not surface a school-run Xiaohongshu profile or an official-site link to one. This is a failure to verify, not evidence that no account exists.",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "28",
+      "school_name": "播道書院",
+      "visited_sources": [
+        "https://www.evangel.edu.hk",
+        "https://www.facebook.com/100057473709834",
+        "https://edflix.evangel.edu.hk/video/c81e6818-a470-495b-a770-20e32949437a",
+        "https://edflix.evangel.edu.hk/channel/channel-3/ec-media",
+        "https://vimeo.com/channels/ecvideogallery",
+        "https://www.youtube.com/@ECLibrary",
+        "https://www.youtube.com/@evangelcollegeunoffical756",
+        "https://hk.linkedin.com/company/evangelcollege"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "An official school-hosted contest document links to the school's Facebook page at facebook.com/qualiedchannel; indexed profile text names 萬鈞匯知中學 Man Kwan QualiEd College and says it is the school's official account. Direct profile fetching returned only Facebook's login page. Targeted raw-HTML extraction also found the exact profile/channel destination among this official page’s social or Campus TV links.",
+          "evidence_url": "https://www.mkqc.edu.hk/",
+          "is_new": false,
+          "label": "Official school Facebook — 萬鈞匯知中學 Man Kwan QualiEd College",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/qualiedchannel/",
+          "supporting_evidence_urls": [
+            "https://www.mkqc.edu.hk/sites/default/files/engmin_ge_bi_sai_zhang_cheng_quan_fen_wen_jian_.pdf"
+          ]
+        },
+        {
+          "evidence_text": "The official school's Campus Video section is indexed with Instagram, YouTube, and Facebook in its header; the indexed Instagram profile is named 萬鈞匯知中學 Man Kwan QualiEd College (@qualiedchannel). Direct Instagram fetching returned only the login page, not profile content. Targeted raw-HTML extraction also found the exact profile/channel destination among this official page’s social or Campus TV links.",
+          "evidence_url": "https://www.mkqc.edu.hk/",
+          "is_new": false,
+          "label": "Official school Instagram — @qualiedchannel",
+          "ownership": "school",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/qualiedchannel/",
+          "supporting_evidence_urls": [
+            "https://www.mkqc.edu.hk/en/videos/videos/2027"
+          ]
+        },
+        {
+          "evidence_text": "Fetched channel description identifies the school in Chinese and English, explains its school philosophy, and says the promotional video showcases MKQC student campus life; school site also has a Campus Video section.",
+          "evidence_url": "https://www.youtube.com/channel/UC5QGVCf0TRittRKiJz0Sx2Q",
+          "is_new": false,
+          "label": "Official school YouTube channel — MKQC Man Kwan QualiEd College",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/channel/UC5QGVCf0TRittRKiJz0Sx2Q"
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "Listed Facebook profile is the school account: its public indexed profile identifies 萬鈞匯知中學 Man Kwan QualiEd College and describes itself as the school's official account. The official school-hosted contest document also links to facebook.com/qualiedchannel. Direct profile fetch showed only Facebook's login page, so this is not a full live-platform check.",
+          "platform": "facebook",
+          "status": "verified"
+        },
+        {
+          "notes": "The school's official site header identifies Instagram among its social links; the public indexed profile is 萬鈞匯知中學 Man Kwan QualiEd College (@qualiedchannel). Direct fetch showed only Instagram's login page, so current profile content could not be inspected.",
+          "platform": "instagram",
+          "status": "verified"
+        },
+        {
+          "notes": "The channel's fetched description identifies Man Kwan QualiEd College in Chinese and English and describes school promotional/campus-life content; the official school site's Campus Video section is consistent with a school-run channel.",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "No exact school-run profile URL could be verified. A school Instagram result mentions Xiaohongshu, but gives no profile link; a surfaced Xiaohongshu profile URL fetched only the platform legal/footer text without account identity. Platform/profile access therefore did not permit verification; this does not establish that the school has no account.",
+          "platform": "xiaohongshu",
+          "status": "access_blocked"
+        }
+      ],
+      "school_id": "132",
+      "school_name": "萬鈞匯知中學",
+      "visited_sources": [
+        "https://www.mkqc.edu.hk/",
+        "https://www.facebook.com/qualiedchannel/",
+        "https://www.instagram.com/qualiedchannel/",
+        "https://www.youtube.com/channel/UC5QGVCf0TRittRKiJz0Sx2Q",
+        "https://www.mkqc.edu.hk/tc/video/2021-22%E5%B9%B4%E5%BA%A6-%E8%90%AC%E9%88%9E%E5%8C%AF%E7%9F%A5%E4%B8%AD%E5%AD%B8-%E5%AE%A3%E5%82%B3%E7%89%87",
+        "https://www.mkqc.edu.hk/sites/default/files/engmin_ge_bi_sai_zhang_cheng_quan_fen_wen_jian_.pdf",
+        "https://www.xiaohongshu.com/user/profile/5f967d110000000001008a03",
+        "https://www.mkqc.edu.hk/en/principals-message",
+        "https://www.mkqc.edu.hk/en/videos/videos/2027",
+        "https://www.instagram.com/reel/DXhFNN9BKDr/",
+        "https://www.mkqc.edu.hk/tc/school_album/open-day-cum-school-info-day"
+      ]
+    },
+    {
+      "accounts": [
+        {
+          "evidence_text": "Public post describes the school's Father Fellowship, says every Logos Academy dad is invited, and provides school-community event details. The official school activity listing independently covers the same Father Fellowship season. Profile fetch itself was login-gated.",
+          "evidence_url": "https://www.facebook.com/HKCCCULogosAcademy/posts/122119399491303537/",
+          "is_new": true,
+          "label": "Logos Academy (@HKCCCULogosAcademy)",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/HKCCCULogosAcademy/"
+        },
+        {
+          "evidence_text": "Official school news item is titled 'Follow us on Instagram @HKCCCU_LA' and is dated 2025-07-24, Whole School. The article body did not render in fetch; Instagram profile fetch returned a login screen.",
+          "evidence_url": "https://www.logos.edu.hk/en/news/follow-us-instagram%C2%A0hkcccula",
+          "is_new": true,
+          "label": "The HKCCCU Logos Academy (@hkcccu_la)",
+          "ownership": "school",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/hkcccu_la/"
+        },
+        {
+          "evidence_text": "Channel header identifies HKCCCU Logos Academy and links to logosacademy.edu.hk; channel videos include '2024 2025 Logos Reading Day Reading Game Booths V2', a school catwalk competition, school interview videos, and the school anthem.",
+          "evidence_url": "https://www.youtube.com/@TheHKCCCULogosAcademy",
+          "is_new": true,
+          "label": "HKCCCU Logos Academy (@TheHKCCCULogosAcademy)",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@TheHKCCCULogosAcademy"
+        }
+      ],
+      "existing_link_issues": [],
+      "platform_checks": [
+        {
+          "notes": "School page at facebook.com/HKCCCULogosAcademy publishes school-specific announcements; a public post about the Logos Academy Father Fellowship matches the school's official activity listing. Direct profile fetch returned a login interstitial, so profile details could not be fully inspected. Other same-name pages surfaced in search were explicitly marked Unofficial Page and excluded.",
+          "platform": "facebook",
+          "status": "verified"
+        },
+        {
+          "notes": "Official school news item is titled 'Follow us on Instagram @HKCCCU_LA' (2025-07-24, Whole School), verifying the school handle. The article body did not render on fetch and the Instagram profile fetch showed a login screen; verification is based on the official school's account announcement, not a full live-profile check.",
+          "platform": "instagram",
+          "status": "verified"
+        },
+        {
+          "notes": "The channel header identifies 'HKCCCU Logos Academy' and @TheHKCCCULogosAcademy, links to logosacademy.edu.hk, and lists school-specific videos (including Logos Reading Day, school competition, anthem, and school interview videos).",
+          "platform": "youtube",
+          "status": "verified"
+        },
+        {
+          "notes": "Focused Chinese- and English-language searches did not surface an attributable school or department account, and no official-school link was found. This is not evidence that no account exists.",
+          "platform": "xiaohongshu",
+          "status": "not_verified"
+        }
+      ],
+      "school_id": "371",
+      "school_name": "香港華人基督教聯會真道書院",
+      "visited_sources": [
+        "https://www.logos.edu.hk/",
+        "https://www.youtube.com/@TheHKCCCULogosAcademy/videos",
+        "https://www.facebook.com/pages/HKCCCU-Logos-Academy/334083289997815",
+        "https://www.facebook.com/pages/HKCCCU-Logos-Academy/108402012525445",
+        "https://www.instagram.com/explore/locations/213177493/hkcccu-logos-academy/",
+        "https://www.logos.edu.hk/en/news/follow-us-instagram%C2%A0hkcccula",
+        "https://logos.edu.hk/",
+        "https://www.logos.edu.hk/en/contact-us",
+        "https://www.instagram.com/hkcccu_la/",
+        "https://logos.edu.hk/tc/news?page=2",
+        "https://logos.edu.hk/en/video-gallery",
+        "https://m.youtube.com/@TheHKCCCULogosAcademy/playlists?view=1&sort=dd&shelf_id=2",
+        "https://www.facebook.com/HKCCCULogosAcademy/",
+        "https://www.facebook.com/HKCCCULogosAcademy/posts/122119399491303537/",
+        "https://www.youtube.com/@TheHKCCCULogosAcademy",
+        "https://logos.edu.hk/en/activities/logos-academy-father-fellowship-opens-a-new-season-of-faith-friendship-and-fatherhood"
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "id": "156",
+      "name": "將軍澳官立中學",
+      "added": [
+        {
+          "evidence_text": "The indexed About information for the school-named YouTube channel lists 'Facebook Page facebook.com/TKOGSSOFFICIAL'; the search result identifies the channel as Tseung Kwan O Government Secondary School. Direct Facebook fetch was limited to a login prompt.",
+          "evidence_url": "https://www.youtube.com/@TKOGSSOFFICIAL/about",
+          "is_new": true,
+          "label": "Official school Facebook page",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/TKOGSSOFFICIAL/"
+        },
+        {
+          "evidence_text": "The official school-hosted 2026 newsletter prints 'Email: info@tkogss.edu.hk Website: http://www.tkogss.edu.hk Instagram: tkogss_official'; the school-named YouTube channel's indexed About information links the same Instagram URL. Direct Instagram fetch was limited to a login prompt.",
+          "evidence_url": "https://tkogss.edu.hk/sites/default/files/notice/2526_shang_xue_qi_yang_fan_2.pdf",
+          "is_new": true,
+          "label": "Official school Instagram account",
+          "ownership": "school",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/tkogss_official/"
+        }
+      ],
+      "removed": []
+    },
+    {
+      "id": "108",
+      "name": "港澳信義會慕德中學",
+      "added": [
+        {
+          "evidence_text": "The profile bio says 港澳信義會慕德中學官方Instagram and describes its role as recording campus life, providing school news, and sharing teacher features; recent posts cover school events. This is the campus television account.",
+          "evidence_url": "https://www.instagram.com/qmerstv/",
+          "is_new": true,
+          "label": "QMers 慕德校園電視台",
+          "ownership": "department",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/qmerstv/"
+        },
+        {
+          "evidence_text": "The fetched channel is titled 港澳信義會慕德中學校園電視台QMersTV and contains school leadership, performances, and school-introduction videos. The school's official website lists a 校園電視台 section; search results resolve the channel's public handle as @qmssqmerstv.",
+          "evidence_url": "https://www.youtube.com/channel/UCs6T1wo_il766InDAaSsGDg/videos",
+          "is_new": true,
+          "label": "港澳信義會慕德中學校園電視台 QMersTV",
+          "ownership": "department",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@qmssqmerstv"
+        }
+      ],
+      "removed": []
+    },
+    {
+      "id": "163",
+      "name": "景嶺書院",
+      "added": [
+        {
+          "evidence_text": "The indexed public profile identifies King Ling College and lists 1 Lam Shing Road, Tseung Kwan O, +852 2702 9602, klc-mail@kingling.edu.hk, and a link to kingling.edu.hk. The official school contact page confirms the same address, telephone, and email. The Facebook page itself could not be read beyond its login wall, so its live contents were not independently inspected.",
+          "evidence_url": "https://www.facebook.com/kinglingcollege/",
+          "is_new": true,
+          "label": "King Ling College",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/kinglingcollege/"
+        }
+      ],
+      "removed": []
+    },
+    {
+      "id": "256",
+      "name": "仁濟醫院王華湘中學",
+      "added": [],
+      "removed": []
+    },
+    {
+      "id": "12",
+      "name": "保良局甲子何玉清中學",
+      "added": [
+        {
+          "evidence_text": "The official School Videos page identifies school-produced films, including the 2019 “甲子故事” and the 2026 school introduction; the fetched HYC PLK channel contains the school-branded promotional short film “保良局甲子何玉清中學宣傳短片（6分鐘版本）(2019年3月)”. The channel's school-specific content and the official school's video listing support classifying this as the school's video channel.",
+          "evidence_url": "https://www.plk1984.edu.hk/CP/pG/36/48/60",
+          "is_new": true,
+          "label": "HYC PLK — school promotional-video channel",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@hycplk6682"
+        },
+        {
+          "evidence_text": "The official School Videos page lists the school's marching-band performances and the 2026 Tianjin exchange/music event. The fetched channel is explicitly named “PLKHYC1984Marching Band” and contains 25 videos, including matching school/event-branded 2026 performances and the school's open-day performance. This is classified as a department account for the marching band, not a separate school-wide channel.",
+          "evidence_url": "https://www.plk1984.edu.hk/CP/pG/36/48/60",
+          "is_new": true,
+          "label": "PLKHYC1984 Marching Band — school marching-band channel",
+          "ownership": "department",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@PLKHYC1984MarchingBand"
+        }
+      ],
+      "removed": []
+    },
+    {
+      "id": "31",
+      "name": "博愛醫院八十週年鄧英喜中學",
+      "added": [
+        {
+          "evidence_text": "The official school's indexed footer gives ‘IG: pohtyh_official’; the corresponding indexed Instagram profile identifies itself as ‘POHTYH Official’ and says ‘博愛醫院八十週年鄧英喜中學官方ig’ (the school's official IG). The homepage fetch omitted the social footer, but the exact footer handle was present in search indexing.",
+          "evidence_url": "https://www.pohtyh.edu.hk/",
+          "is_new": true,
+          "label": "POHTYH Official — school official Instagram",
+          "ownership": "school",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/pohtyh_official/"
+        },
+        {
+          "evidence_text": "An indexed extract of the school's official publicity PDF says a teacher helped the music subject establish a YouTube channel and take part in related activities. The fetched candidate channel identifies itself as ‘TYH Activities (博愛醫院八十週年鄧英喜中學活動)’ and displays school performances/activities. This supports a school music/activities department role; the PDF fetch returned malformed encoded content and did not expose the exact channel URL.",
+          "evidence_url": "https://www.pohtyh.edu.hk/Files/SchoolIntroDay/2025Publicity.pdf",
+          "is_new": true,
+          "label": "TYH Activities — school music/activities channel",
+          "ownership": "department",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@POHTYHMusic"
+        }
+      ],
+      "removed": []
+    },
+    {
+      "id": "140",
+      "name": "基督教宣道會宣基中學",
+      "added": [],
+      "removed": []
+    },
+    {
+      "id": "348",
+      "name": "威靈頓教育機構張沛松紀念中學",
+      "added": [
+        {
+          "evidence_text": "The indexed profile identifies as 張沛松紀念中學 Chang Pui Chung Memorial School and lists the school's exact cpc.edu.hk domain, address, phone, and school email; these details match the official school profile at https://www.chsc.hk/ssp2025/sch_detail.php?lang_id=1&sch_id=348. Direct page fetch was login-blocked, so the current live page could not be fully checked.",
+          "evidence_url": "https://www.facebook.com/WeoCPCMS/",
+          "is_new": true,
+          "label": "Chang Pui Chung Memorial School official Facebook page",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/WeoCPCMS/"
+        },
+        {
+          "evidence_text": "The channel is titled IT CPC, its profile links to cpc.edu.hk, and its two uploads are about Chang Pui Chung Memorial School's ViuTV campus program. The school's official Campus TV page is https://www.cpc.edu.hk/cpccampustv.html, which identifies the school's 創新科技多媒體中心(校園電視台).",
+          "evidence_url": "https://www.youtube.com/@itcpc8147/videos",
+          "is_new": true,
+          "label": "IT CPC — Innovation & Technology Multi-media Centre / Campus TV",
+          "ownership": "department",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@itcpc8147"
+        }
+      ],
+      "removed": []
+    },
+    {
+      "id": "23",
+      "name": "寶覺中學",
+      "added": [
+        {
+          "evidence_text": "The channel is titled Po Kok Secondary School (@pokoksecondaryschool), links from its channel header to www.pokok.edu.hk, and includes the 2627 年度寶覺中學學校簡介 and other school promotional/event videos.",
+          "evidence_url": "https://www.youtube.com/@pokoksecondaryschool",
+          "is_new": true,
+          "label": "Po Kok Secondary School official YouTube channel",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@pokoksecondaryschool"
+        }
+      ],
+      "removed": []
+    },
+    {
+      "id": "71",
+      "name": "東華三院呂潤財紀念中學",
+      "added": [
+        {
+          "evidence_text": "頻道頁列示 @LYCMCCampusTV、318 位訂閱者及 5 部影片，包含《LYCMC 東華三院呂潤財紀念中學 學校簡介 2026》、校慶主題曲及學校介紹短片；頻道為校園電視台部門，而非一般學生個人帳號。",
+          "evidence_url": "https://www.youtube.com/channel/UCEBfPMWYbxgRRzz9u142gtQ/about",
+          "is_new": true,
+          "label": "LYCMC Campus TV（校園電視台）",
+          "ownership": "department",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@LYCMCCampusTV"
+        }
+      ],
+      "removed": []
+    },
+    {
+      "id": "149",
+      "name": "迦密主恩中學",
+      "added": [
+        {
+          "evidence_text": "The indexed profile is titled CDGFSS Campus Television and says it documents life across CDGFSS, matching the school's separately identified official Campus Television channel. Instagram's direct fetch displayed a login wall, so the profile itself could not be inspected live.",
+          "evidence_url": "https://www.instagram.com/cdgfss_ctv/",
+          "is_new": true,
+          "label": "CDGFSS Campus Television (Campus TV department account)",
+          "ownership": "department",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/cdgfss_ctv/"
+        },
+        {
+          "evidence_text": "YouTube displays the channel name CDGFSS Campus Television and handle @CDGFSSCampusTelevision; the indexed About description states, “The Official YouTube Channel of CDGFSS Campus TV.”",
+          "evidence_url": "https://www.youtube.com/c/CDGFSSCampusTelevision/about",
+          "is_new": true,
+          "label": "CDGFSS Campus Television (official Campus TV channel)",
+          "ownership": "department",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@CDGFSSCampusTelevision"
+        }
+      ],
+      "removed": []
+    },
+    {
+      "id": "327",
+      "name": "順德聯誼總會鄭裕彤中學",
+      "added": [],
+      "removed": []
+    },
+    {
+      "id": "403",
+      "name": "新界西貢坑口區鄭植之中學",
+      "added": [
+        {
+          "evidence_text": "The accessible channel identifies as 鄭植之中學 CCCSS, @CCCSSMedia, links to cccss.edu.hk, and hosts school-specific videos. The official principal-message page welcomes users to subscribe to the school's YouTube channel, and the official campus-video page lists school videos.",
+          "evidence_url": "https://www.youtube.com/channel/UCzbtX526JoNvfDlHDajGJ9g",
+          "is_new": true,
+          "label": "鄭植之中學 CCCSS (@CCCSSMedia) — school media/video channel",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/channel/UCzbtX526JoNvfDlHDajGJ9g"
+        }
+      ],
+      "removed": []
+    },
+    {
+      "id": "364",
+      "name": "香港道教聯合會圓玄學院第三中學",
+      "added": [
+        {
+          "evidence_text": "The post is titled '【圓玄三中】升中資訊日暨學校開放日 / HKTAYY3 Information day and Open House'; it names the full school in Chinese and English and gives the school's registration link and enquiry phone number.",
+          "evidence_url": "https://www.facebook.com/hktayy3/posts/10163474438057094/",
+          "is_new": true,
+          "label": "香港道教聯合會圓玄學院第三中學 official page",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/hktayy3"
+        }
+      ],
+      "removed": [
+        {
+          "evidence_text": "The foundation's own website describes its mission as providing educational services and funding for children and youth in need and lists its own charitable programs, establishing a separate organization rather than a school account.",
+          "evidence_url": "https://joyousfoundation.org.hk/",
+          "issue": "This is the separate Joyous Foundation／樂兒計劃成長基金 charity page, not the school's official page; it may be a partner/supporter, but should not be presented as a school-run social account.",
+          "platform": "facebook",
+          "recommended_action": "remove",
+          "url": "https://www.facebook.com/JoyousFoundation"
+        },
+        {
+          "evidence_text": "The post says 'The DWC Final 2026 in Dublin has successfully concluded' and describes 238 dancers from Hong Kong and the international dance competition, with no school-account identity.",
+          "evidence_url": "https://www.facebook.com/dwcasiancup/videos/418657927340510/",
+          "issue": "The listed URL is an individual post from a Dance World Cup account, not a school profile or school-run account; the fetched post concerns the DWC Final 2026 in Dublin and dance competition results.",
+          "platform": "facebook",
+          "recommended_action": "remove",
+          "url": "https://www.facebook.com/dwcasiancup/videos/418657927340510/"
+        }
+      ]
+    },
+    {
+      "id": "209",
+      "name": "馬錦明慈善基金馬陳端喜紀念中學",
+      "added": [],
+      "removed": []
+    },
+    {
+      "id": "253",
+      "name": "仁濟醫院靚次伯紀念中學",
+      "added": [],
+      "removed": []
+    },
+    {
+      "id": "398",
+      "name": "香海正覺蓮社佛教正覺中學",
+      "added": [
+        {
+          "evidence_text": "Search-indexed profile/posts identify this numeric page as '香海正覺蓮社佛教正覺中學BCKSS'; recent indexed posts use the school's first-person institutional voice (including '本校校舍…' and school-event notices). Profile fetch itself displayed only the Facebook login screen.",
+          "evidence_url": "https://www.facebook.com/100084998610225/",
+          "is_new": true,
+          "label": "HHCKLA Buddhist Ching Kok Secondary School BCKSS",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/100084998610225/"
+        },
+        {
+          "evidence_text": "Fetched channel page is titled '香海正覺蓮社佛教正覺中學 BCKSS'; indexed channel videos include school-specific events such as the 2026–27 opening ceremony and campus activities.",
+          "evidence_url": "https://www.youtube.com/@bckss2646",
+          "is_new": true,
+          "label": "香海正覺蓮社佛教正覺中學 BCKSS (school channel)",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@bckss2646"
+        }
+      ],
+      "removed": []
+    },
+    {
+      "id": "357",
+      "name": "西貢崇真天主教學校（中學部）",
+      "added": [
+        {
+          "evidence_text": "Fetched page heading is 西貢崇真天主教學校-中學部, categorized as 'Page · School', lists sts.edu.hk and sts-mail@hkedcity.net, and carries current school activity posts. The numeric ID on the page is 100063998102651.",
+          "evidence_url": "https://www.facebook.com/p/%E8%A5%BF%E8%B2%A2%E5%B4%87%E7%9C%9F%E5%A4%A9%E4%B8%BB%E6%95%99%E5%AD%B8%E6%A0%A1-%E4%B8%AD%E5%AD%B8%E9%83%A8-100063998102651/",
+          "is_new": true,
+          "label": "西貢崇真天主教學校-中學部",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/100063998102651/"
+        }
+      ],
+      "removed": []
+    },
+    {
+      "id": "337",
+      "name": "天主教鳴遠中學",
+      "added": [],
+      "removed": []
+    },
+    {
+      "id": "14",
+      "name": "保良局羅氏基金中學",
+      "added": [
+        {
+          "evidence_text": "The public profile identifies itself as “LawnTV@plklfc” and “保良局羅氏基金中學 校園電視台” (the college's campus television), says it records school life and provides school information, and links LawnTV's YouTube.",
+          "evidence_url": "https://www.instagram.com/lawntv/",
+          "is_new": true,
+          "label": "LawnTV — PLK Laws Foundation College campus television",
+          "ownership": "department",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/lawntv/"
+        },
+        {
+          "evidence_text": "The channel title is “Lawn TV (PLKLFC)” and its description states “Campus TV of Po Leung Kuk Laws Foundation College”; it carries current school-event videos. The @lawntv Instagram profile links to youtube.com/@LawnTV.",
+          "evidence_url": "https://www.youtube.com/@LawnTV",
+          "is_new": true,
+          "label": "Lawn TV (PLKLFC) — college campus television",
+          "ownership": "department",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@LawnTV"
+        }
+      ],
+      "removed": []
+    },
+    {
+      "id": "420",
+      "name": "優才（楊殷有娣）書院",
+      "added": [
+        {
+          "evidence_text": "The channel identifies itself as 'G.T. College (Secondary) Official'; its About text describes G.T. College and links to gtcollege.edu.hk. The official school site has a G.T. Video / School Channel section.",
+          "evidence_url": "https://www.youtube.com/channel/UCGZ1EaoH8qeQxTVA0OXuJdA",
+          "is_new": true,
+          "label": "G.T. College (Secondary) Official",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@g.t.college"
+        },
+        {
+          "evidence_text": "The channel title is the school's Chinese name, its channel header links to gtcollege.edu.hk, and the channel contains school-specific videos such as G.T. book-sharing and school events.",
+          "evidence_url": "https://www.youtube.com/@gtcollege-hk",
+          "is_new": true,
+          "label": "優才（楊殷有娣）書院 school video channel",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@gtcollege-hk"
+        }
+      ],
+      "removed": []
+    },
+    {
+      "id": "239",
+      "name": "啓思中學",
+      "added": [
+        {
+          "evidence_text": "The school-operated Facebook announcement says the Creative Schools Continuum (Creative Primary School's Kindergarten, 啓思小學 and CSS) is on Little RedNote, names @启思中小幼连校 and says ‘Click the link below to visit our XHS.’ The linked profile identifies 啓思中小幼连校 and describes the CPSKG/CPS/CSS continuum.",
+          "evidence_url": "https://www.facebook.com/CreativeSecondarySchool/posts/%F0%9D%90%96%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%9E-%F0%9D%90%8D%F0%9D%90%A8%F0%9D%90%B0-%F0%9D%90%A8%F0%9D%90%A7-%F0%9D%90%8B%F0%9D%90%A2%F0%9D%90%AD%F0%9D%90%AD%F0%9D%90%A5%F0%9D%90%9E-%F0%9D%90%91%F0%9D%90%9E%F0%9D%90%9D%F0%9D%90%8D%F0%9D%90%A8%F0%9D%90%AD%F0%9D%90%9Ewere-excited-to-announce-that-creative-schools-continu/1515661187249919/",
+          "is_new": true,
+          "label": "啓思中小幼連校 / Creative Schools Continuum (shared K–12 account, includes CSS)",
+          "ownership": "school",
+          "platform": "xiaohongshu",
+          "url": "https://www.xiaohongshu.com/user/profile/69eef6e30000000002002801"
+        }
+      ],
+      "removed": []
+    },
+    {
+      "id": "157",
+      "name": "將軍澳香島中學",
+      "added": [
+        {
+          "evidence_text": "The official school homepage directly links this exact Facebook school-profile URL in its social icons; its YouTube and Instagram icons point to the already-listed TKO school accounts.",
+          "evidence_url": "https://www.tko.heungto.net/en/",
+          "is_new": true,
+          "label": "將軍澳香島中學 official Facebook page",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/%E5%B0%87%E8%BB%8D%E6%BE%B3%E9%A6%99%E5%B3%B6%E4%B8%AD%E5%AD%B8-HEUNG-TO-SECONDARY-SCHOOL-TSEUNG-KWAN-O-257798224273083/",
+          "supporting_evidence_urls": [
+            "https://www.tko.heungto.net/",
+            "https://www.facebook.com/tkohtss2003/",
+            "https://www.facebook.com/tkohtss/"
+          ]
+        }
+      ],
+      "removed": []
+    },
+    {
+      "id": "28",
+      "name": "播道書院",
+      "added": [],
+      "removed": []
+    },
+    {
+      "id": "132",
+      "name": "萬鈞匯知中學",
+      "added": [],
+      "removed": []
+    },
+    {
+      "id": "371",
+      "name": "香港華人基督教聯會真道書院",
+      "added": [
+        {
+          "evidence_text": "Public post describes the school's Father Fellowship, says every Logos Academy dad is invited, and provides school-community event details. The official school activity listing independently covers the same Father Fellowship season. Profile fetch itself was login-gated.",
+          "evidence_url": "https://www.facebook.com/HKCCCULogosAcademy/posts/122119399491303537/",
+          "is_new": true,
+          "label": "Logos Academy (@HKCCCULogosAcademy)",
+          "ownership": "school",
+          "platform": "facebook",
+          "url": "https://www.facebook.com/HKCCCULogosAcademy/"
+        },
+        {
+          "evidence_text": "Official school news item is titled 'Follow us on Instagram @HKCCCU_LA' and is dated 2025-07-24, Whole School. The article body did not render in fetch; Instagram profile fetch returned a login screen.",
+          "evidence_url": "https://www.logos.edu.hk/en/news/follow-us-instagram%C2%A0hkcccula",
+          "is_new": true,
+          "label": "The HKCCCU Logos Academy (@hkcccu_la)",
+          "ownership": "school",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/hkcccu_la/"
+        },
+        {
+          "evidence_text": "Channel header identifies HKCCCU Logos Academy and links to logosacademy.edu.hk; channel videos include '2024 2025 Logos Reading Day Reading Game Booths V2', a school catwalk competition, school interview videos, and the school anthem.",
+          "evidence_url": "https://www.youtube.com/@TheHKCCCULogosAcademy",
+          "is_new": true,
+          "label": "HKCCCU Logos Academy (@TheHKCCCULogosAcademy)",
+          "ownership": "school",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/@TheHKCCCULogosAcademy"
+        }
+      ],
+      "removed": []
+    }
+  ]
+}

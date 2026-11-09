@@ -19,6 +19,7 @@
       <span>校情資料：<b>中學概覽 2025/2026</b></span>
       <span>中一學額：<b>2026/27 學年</b></span>
       <span>官網擷取：<b id="meta-date">2026-11-01</b></span>
+      <span>社交帳號補查：<b>2026-11-09</b></span>
       <span>學校數目：<b>26</b></span>
     </div>
   </div>
@@ -46,7 +47,7 @@
       </div>
       <div class="panel">
         <h3>社交平台覆蓋</h3>
-        <p class="sub">26 間學校中，設有官方帳號的學校數目</p>
+        <p class="sub">已核實學校／校方部門帳號的學校數；校友會、學生及來源未核實帳號另行標示，不計入官方平台數。</p>
         <div class="vbars" id="chart-social"></div>
         <div class="panel" style="border:none;box-shadow:none;padding:14px 0 0;background:transparent">
           <p class="sub" style="margin:0">直資 7 校的中一班數合共 <b id="dss-classes">—</b> 班；官津 19 校中一學額合共 <b id="aided-places">—</b> 個。</p>
@@ -70,7 +71,7 @@
       <select id="f-type"><option value="">全部類別</option><option>官立</option><option>資助</option><option>直資</option></select>
       <select id="f-religion"><option value="">全部宗教</option></select>
       <select id="f-strategy"><option value="">全部宣傳型態</option></select>
-      <button class="chip" id="f-social" aria-pressed="false">只顯示有社交平台</button>
+      <button class="chip" id="f-social" aria-pressed="false">只顯示已核實官方平台</button>
       <span class="count" id="count"></span>
     </div>
     <div class="tablewrap">
@@ -147,16 +148,16 @@
         <p id="a4"></p>
         <ul>
           <li>Facebook <b id="a4a"></b> 間、Instagram <b id="a4b"></b> 間、YouTube <b id="a4c"></b> 間、小紅書 <b id="a4d"></b> 間。</li>
-          <li><b>5</b> 間學校（宣基、羅氏、優才、真道、張沛松）官網未見任何社交平台連結，對外溝通集中於官網與實體活動。</li>
+          <li id="a4-none">尚未核實的帳號不等於不存在；請以學校公開確認的來源為準。</li>
         </ul>
       </div>
       <div class="note">
         <h4><span>5</span>宣傳策略的四種典型</h4>
         <ul>
-          <li><b>多渠道影音型（3 個平台以上）</b>：以短片、活動花絮維持曝光，多為直資或收生競爭較激烈的學校。</li>
-          <li><b>雙平台活動型</b>：FB／IG 配合開放日、升中資訊日，屬最常見的津貼中學配置。</li>
-          <li><b>單一平台型</b>：只保留 YouTube 或 FB，內容更新頻率偏低，宣傳依賴口碑。</li>
-          <li><b>官網獨守型</b>：完全不做社交，優點是資訊集中，缺點是家長在搜尋引擎與社交平台上幾乎「找不到學校的聲音」。</li>
+          <li><b>多渠道影音型（3 個平台以上）</b>：已核實至少三個學校／校方部門平台；名稱只描述渠道數，不推斷更新頻率。</li>
+          <li><b>雙平台活動型</b>：已核實兩個學校／校方部門平台。</li>
+          <li><b>單一平台型</b>：目前核實一個學校／校方部門平台，不代表其他平台不存在。</li>
+          <li><b>未核實官方帳號</b>：未取得足夠公開證據，可能受網站讀取或搜尋限制影響；不等於學校完全不使用社交平台。</li>
         </ul>
       </div>
       <div class="note" style="grid-column:1/-1">
@@ -167,7 +168,7 @@
             <ul>
               <li>收生壓力集中的 2–3 班學校，宜把「小班照顧」、「英語增潤」、「升學增值」轉化為可驗證的短片內容，而非只放活動相簿。</li>
               <li>已有 3 個平台的學校，問題不在渠道而在頻率與分工：建議 Facebook 負責家長公告、Instagram 負責學生生活、YouTube 負責 3–5 分鐘的課程與校園導覽。</li>
-              <li>小紅書已見兩校使用，對跨境生源是低成本試驗場，但需同步處理簡體內容與私隱合規。</li>
+              <li id="a4-xhs">小紅書帳號數以本次可核實的公開來源為準；未列出不等於未使用。</li>
             </ul>
           </div>
           <div>
@@ -196,13 +197,13 @@
       <div class="grid2">
         <div><span>學校名單與校情</span><b>家庭與學校合作事宜委員會《中學概覽 2025/2026》</b>（班級結構、辦學宗旨、收生準則、語文政策）</div>
         <div><span>中一學額</span><b>教育局《2024/2026 中學學位分配辦法——中學一覽表（西貢區）》</b>及《2026 年度中一自行分配學位手冊》</div>
-        <div><span>社交平台</span><b>各校官方網站 2026-11-01 擷取</b>；官網未列出者，以公開搜尋結果補充並標示</div>
-        <div><span>宣傳型態</span><b>按平台數目分類</b>（3＋／2／1／0），並參考官網是否設開放日、資訊日、校訊及影片欄目</div>
+        <div><span>社交平台</span><b>2026-11-09 補查官方網站及公開帳號</b>；新增連結附查證來源，校友會、學生組織及未核實原有連結分開標示。<a href="data/social-link-audit.json" target="_blank" rel="noopener">查看補查記錄</a></div>
+        <div><span>宣傳型態</span><b>按已核實官方平台數目分類</b>（3＋／2／1／0）；不因搜尋不到帳號而斷言不存在，亦不由平台數推斷更新頻率</div>
       </div>
       <p class="sub" style="margin:18px 0 0;line-height:1.8">
         限制一：中一學額為「自行分配學位＋統一派位學額」，未計留班位及後補／叩門取錄，與實際入學人數可能略有差異。<br>
         限制二：直資學校自訂收生，沒有統一中一學額公布，本表只列班數，不作推算。<br>
-        限制三：社交平台帳號以官網連結為主要證據；部分學校可能營運未在官網公開的帳號，或由學生組織、校友會營運，本表已分開標示。<br>
+        限制三：社交帳號以校方連結及可辨識的公開來源為證據；部分平台無法公開讀取，未核實不等於不存在。校友會與學生組織帳號不計入官方平台數。<br>
         限制四：宣傳策略屬基於公開渠道的觀察與歸類，並非學校官方策略文件。
       </p>
     </div>
@@ -234,7 +235,7 @@
         </ul>
       </div>
     </div>
-    <div class="foot-note">資料整理日期：2026-11-01 ｜ 校情年份：2025/26 學年 ｜ 中一學額年份：2026/27 學年 ｜ 本頁為獨立整理，與任何學校或辦學團體無關。</div>
+    <div class="foot-note">校情整理日期：2026-11-01 ｜ 社交帳號補查：2026-11-09 ｜ 校情年份：2025/26 學年 ｜ 中一學額年份：2026/27 學年 ｜ 本頁為獨立整理，與任何學校或辦學團體無關。</div>
   </div>
 </footer>
 
@@ -249,7 +250,7 @@
   </div>
 </div>
 
-<script src="assets/data.js"></script>
-<script src="assets/app.js"></script>
+<script src="assets/data.js?v=20261109-social"></script>
+<script src="assets/app.js?v=20261109-social"></script>
 </body>
 </html>
