@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>西貢區中學全景 2026｜中一收生・班級結構・學校特色・社交宣傳</title>
-<meta name="description" content="整合中學概覽2025/26、教育局中學一覽表及26間西貢區中學官網，分析各校中一學額、各級班數、辦學特色、社交平台與宣傳策略。">
-<link rel="stylesheet" href="assets/style.css">
+<title>西貢區中學全景 2026｜Banding參考・發展計劃・外評摘要・中一收生</title>
+<meta name="description" content="整合中學概覽2025/26、教育局中學一覽表及26間西貢區中學官網，查看各校中一學額、校情、社交連結，以及有來源的Banding坊間參考、三年發展計劃與最新可讀公開外評摘要。">
+<link rel="stylesheet" href="assets/style.css?v=20261109-reviews">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎒</text></svg>">
 </head>
 <body>
@@ -13,13 +13,14 @@
 <header class="hero">
   <div class="wrap">
     <span class="eyebrow">Sai Kung District · Secondary Schools 2026</span>
-    <h1>西貢區中學全景：<br><em>中一收生</em>、班級結構與<em>宣傳策略</em></h1>
-    <p class="lede">把 26 間西貢區（將軍澳、西貢市中心、坑口、調景嶺）中學的官方資料放在同一張桌上：中一學額怎樣分、六級班數怎樣排、學校靠什麼定位、以及它們在社交媒體上的實際曝光。</p>
+    <h1>西貢區中學全景：<br><em>收生與校情</em>、Banding參考與<em>學校發展</em></h1>
+    <p class="lede">一次查看 26 間西貢區（將軍澳、西貢市中心、坑口、調景嶺）中學的收生數字、校情與社交連結。新增三年發展計劃、外評摘要及有來源的Banding坊間參考；點選學校閱讀原文依據、文件年份及查核限制。</p>
     <div class="hero-meta">
       <span>校情資料：<b>中學概覽 2025/2026</b></span>
       <span>中一學額：<b>2026/27 學年</b></span>
       <span>官網擷取：<b id="meta-date">2026-11-01</b></span>
       <span>社交帳號補查：<b>2026-11-09</b></span>
+      <span>文件查核基準：<b id="reviews-date">2026-11-09</b></span>
       <span>學校數目：<b>26</b></span>
     </div>
   </div>
@@ -57,17 +58,32 @@
   </div>
 </section>
 
+<section id="school-documents" style="padding-top:8px">
+  <div class="wrap">
+    <div class="sec-head"><div><span class="tag-label">School Development &amp; Review</span>
+      <h2>Banding參考、發展計劃與外評</h2>
+      <p>每校「詳細資料」新增三個欄目，摘要附原文連結、頁碼或章節。下列數字表示本次可讀公開資料的覆蓋，不是學校排名或表現分數。</p>
+    </div></div>
+    <div class="review-coverage">
+      <div class="panel"><h3>有來源的Banding參考</h3><strong id="reviews-banding-count">—</strong><p class="sub">坊間估計，非教育局學校評級；來源分歧另列。</p></div>
+      <div class="panel"><h3>計劃原文／正式節錄</h3><strong id="reviews-plan-count">—</strong><p class="sub">標示實際計劃期間；關注事項參考不計入此數。</p></div>
+      <div class="panel"><h3>外評全文／總結章節</h3><strong id="reviews-esr-count">—</strong><p class="sub">本次找到的最新可讀公開版本，並非保證最新一次外評。</p></div>
+    </div>
+    <p class="review-note" id="reviews-coverage-note">資料以各校詳情的來源與版本說明為準。未取得文件不代表學校沒有發展計劃或從未外評。</p>
+  </div>
+</section>
+
 <section id="list" style="padding-top:8px">
   <div class="wrap">
     <div class="sec-head">
       <div>
         <span class="tag-label">Directory</span>
         <h2>26 間學校總表</h2>
-        <p>點擊校名查看辦學宗旨、收生準則、語文政策與宣傳觀察。欄位可排序。</p>
+        <p>點擊校名閱讀Banding來源、發展計劃及外評摘要，以及原有校情與社交帳號。原有數字欄位可排序；不以Banding或外評作校際排名。</p>
       </div>
     </div>
     <div class="filters">
-      <input type="search" id="q" placeholder="搜尋學校名稱、宗教、特色…" aria-label="搜尋學校">
+      <input type="search" id="q" placeholder="搜尋校名、Banding、發展重點…" aria-label="搜尋學校或報告摘要">
       <select id="f-type"><option value="">全部類別</option><option>官立</option><option>資助</option><option>直資</option></select>
       <select id="f-religion"><option value="">全部宗教</option></select>
       <select id="f-strategy"><option value="">全部宣傳型態</option></select>
@@ -79,6 +95,7 @@
         <thead>
           <tr>
             <th data-k="name">學校<span class="ar">▲▼</span></th>
+            <th class="reference-col">Banding<small>坊間參考・非官方</small></th>
             <th data-k="type">類別</th>
             <th data-k="religion">宗教</th>
             <th data-k="s1Classes">中一班數</th>
@@ -101,7 +118,7 @@
       <div>
         <span class="tag-label">Profiles</span>
         <h2>學校速覽卡</h2>
-        <p>每張卡列出定位摘要、特色標籤、關鍵數字與社交渠道。</p>
+        <p>每張卡列出Banding坊間參考、文件公開狀態與原有校情；「詳細資料」可讀發展計劃重點、外評優勢及改善建議。</p>
       </div>
     </div>
     <div class="cards" id="cards-grid"></div>
@@ -199,12 +216,16 @@
         <div><span>中一學額</span><b>教育局《2024/2026 中學學位分配辦法——中學一覽表（西貢區）》</b>及《2026 年度中一自行分配學位手冊》</div>
         <div><span>社交平台</span><b>2026-11-09 補查官方網站及公開帳號</b>；新增連結附查證來源，校友會、學生組織及未核實原有連結分開標示。<a href="data/social-link-audit.json" target="_blank" rel="noopener">查看補查記錄</a></div>
         <div><span>宣傳型態</span><b>按已核實官方平台數目分類</b>（3＋／2／1／0）；不因搜尋不到帳號而斷言不存在，亦不由平台數推斷更新頻率</div>
+        <div><span>Banding</span><b>有來源的第三方坊間估計，非官方評級</b>；派位組別屬學生，學校收生組別估計可能有分歧。<a href="https://www.schooland.hk/post/sspa02" target="_blank" rel="noopener noreferrer">閱讀派位組別與坊間估計說明</a></div>
+        <div><span>三年計劃與外評</span><b>逐校記錄原文、文件期、評核日與公開版本</b>；關注事項、自評或年報不冒充正式文件全文。<a href="data/school-reviews.json" target="_blank" rel="noopener noreferrer">查看26校查核及來源記錄</a> · <a href="data/school-reviews.csv">下載新增欄目CSV</a></div>
       </div>
       <p class="sub" style="margin:18px 0 0;line-height:1.8">
         限制一：中一學額為「自行分配學位＋統一派位學額」，未計留班位及後補／叩門取錄，與實際入學人數可能略有差異。<br>
         限制二：直資學校自訂收生，沒有統一中一學額公布，本表只列班數，不作推算。<br>
         限制三：社交帳號以校方連結及可辨識的公開來源為證據；部分平台無法公開讀取，未核實不等於不存在。校友會與學生組織帳號不計入官方平台數。<br>
-        限制四：宣傳策略屬基於公開渠道的觀察與歸類，並非學校官方策略文件。
+        限制四：宣傳策略屬基於公開渠道的觀察與歸類，並非學校官方策略文件。<br>
+        限制五：Banding僅供參考，並非教育局排名或入學保證。舊計劃保留真實年份；只取得官方關注事項時另行標示，不能視為三年計劃全文。<br>
+        限制六：外評反映視學當時的表現。教育局自2023/24學年起公開「總結章節」，不等於全文；不宜按篇幅或改善建議多寡比較學校。未取得公開報告不表示從未外評。<a href="https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/index.html" target="_blank" rel="noopener noreferrer">教育局原文說明</a>
       </p>
     </div>
   </div>
@@ -230,8 +251,8 @@
         <h4>使用說明</h4>
         <ul>
           <li>表格欄位可點擊排序</li>
-          <li>搜尋支援校名、宗教、特色關鍵字</li>
-          <li>點擊校名開啟完整資料卡</li>
+          <li>搜尋支援校名、Banding與報告摘要關鍵字</li>
+          <li>點擊校名閱讀發展計劃、外評及來源</li>
         </ul>
       </div>
     </div>
@@ -251,6 +272,8 @@
 </div>
 
 <script src="assets/data.js?v=20261109-social"></script>
-<script src="assets/app.js?v=20261109-social"></script>
+<script src="assets/school-reviews.js?v=20261109-reviews"></script>
+<script src="assets/school-review-ui.js?v=20261109-reviews"></script>
+<script src="assets/app.js?v=20261109-reviews"></script>
 </body>
 </html>

@@ -1,5 +1,6 @@
 (function () {
   const S = window.SCHOOLS || [];
+  const reviewUI = window.SchoolReviewUI;
   const $ = (s, r = document) => r.querySelector(s);
   const esc = (t) => String(t == null ? '' : t).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const aided = S.filter(s => !s.dss);
@@ -87,7 +88,7 @@
       if (state.strategy && s.strategy !== state.strategy) return false;
       if (state.social && s.channels === 0) return false;
       if (state.q) {
-        const hay = [s.name, s.nameEn, s.religion, s.sponsor, s.type, s.strategy, s.tags.join(' '), s.blurb, s.motto].join(' ').toLowerCase();
+        const hay = [s.name, s.nameEn, s.religion, s.sponsor, s.type, s.strategy, s.tags.join(' '), s.blurb, s.motto, reviewUI ? reviewUI.searchText(s.id) : ''].join(' ').toLowerCase();
         if (!hay.includes(state.q.toLowerCase())) return false;
       }
       return true;
@@ -111,6 +112,7 @@
     $('#count').textContent = `顯示 ${rows.length} / ${S.length} 間`;
     $('#tbody').innerHTML = rows.map(s => `<tr>
       <td><span class="sch" data-id="${s.id}">${esc(s.name)}<small>${esc(s.nameEn)}</small></span></td>
+      <td>${reviewUI ? reviewUI.bandingHTML(s.id) : '<span class="muted">參考資料暫未載入</span>'}</td>
       <td><span class="pill ${typeClass(s.type)}">${esc(s.type)}</span></td>
       <td>${esc(s.religion)}</td>
       <td class="num">${s.s1Classes}</td>
@@ -119,7 +121,7 @@
       <td>${stackBar(s)}</td>
       <td>${socIcon(s)}</td>
       <td><span class="pill">${esc(s.strategy)}</span></td>
-    </tr>`).join('') || `<tr><td colspan="9" style="padding:28px;text-align:center;color:#8a97a8">沒有符合條件的學校</td></tr>`;
+    </tr>`).join('') || `<tr><td colspan="10" style="padding:28px;text-align:center;color:#8a97a8">沒有符合條件的學校</td></tr>`;
   }
 
   function renderCards() {
@@ -135,6 +137,7 @@
         <span class="pill">${esc(s.founded)} 年創校</span>
       </div>
       <p>${esc(s.blurb)}</p>
+      ${reviewUI ? reviewUI.bandingHTML(s.id) + reviewUI.cardHTML(s.id) : ''}
       <div class="tags">${s.tags.map(t => `<span>${esc(t)}</span>`).join('')}</div>
       <div class="kv">
         <div>中一學額<b>${s.dss ? '自訂' : nf(s.s1total)}</b></div>
@@ -177,6 +180,7 @@
         <div><span>中一學額合計</span><b>${s.dss ? '未統一公布' : nf(s.s1total)}</b></div>
         <div><span>班數（中一至中六）</span><b>${['s1','s2','s3','s4','s5','s6'].map(k => s.classes[k] || 0).join(' / ')}（共 ${s.totalClasses} 班）</b></div>
       </div>
+      ${reviewUI ? reviewUI.summaryHTML(s.id) : '<p class="review-note">學校文件資料暫未載入，請稍後重新整理。</p>'}
       <h5>定位摘要</h5><p>${esc(s.blurb)}</p>
       <h5>辦學宗旨</h5><p>${esc(s.mission || '—')}</p>
       ${s.focus ? `<h5>學校關注事項</h5><p>${esc(s.focus)}</p>` : ''}
@@ -243,6 +247,15 @@
   const unresolved = S.filter(s => s.channels === 0);
   setTxt('a4-none', unresolved.length ? `${unresolved.length} 間學校尚未核實官方社交帳號：${unresolved.map(s => s.name).join('、')}。搜尋或讀取受限不等於帳號不存在；可先參考官網並留意後續公布。` : '本次補查已為全部學校核實至少一個官方社交帳號；其他平台仍可能尚未核實。');
   setTxt('a4-xhs', `目前為 ${socialStats[3].n} 間學校核實小紅書帳號；公開來源可能不完整，未列出不等於未使用。`);
+
+  if (reviewUI) {
+    const coverage = reviewUI.coverageStats();
+    setTxt('reviews-banding-count', `${coverage.banding} / ${S.length}`);
+    setTxt('reviews-plan-count', `${coverage.plans} / ${S.length}`);
+    setTxt('reviews-esr-count', `${coverage.externalReviews} / ${S.length}`);
+    setTxt('reviews-coverage-note', `另有 ${coverage.overviewPlans} 間只取得官方關注事項參考，並非三年計劃全文；${coverage.conflictingBanding} 間的Banding來源有分歧，詳情保留各來源表述。未取得文件不代表學校未有發展計劃或從未接受外評。`);
+    setTxt('reviews-date', window.SCHOOL_REVIEWS && window.SCHOOL_REVIEWS.reviewedAt || '尚未載入');
+  }
 
   render();
 })();

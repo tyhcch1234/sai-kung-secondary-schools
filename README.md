@@ -51,3 +51,40 @@ node --test tests/social-data.test.cjs
 測試涵蓋 26 校非社交資料保留、CSV 所依據的官方平台數、逐帳號來源、原有收生總數、搜尋與篩選、全部學校詳情連結及過時文案移除。無需 npm 套件。
 
 本頁為獨立整理，與任何學校或辦學團體無關。
+
+## Banding、發展計劃及外評摘要：2026-11-09 查核
+
+網站已為原有26校加入三項獨立查核記錄。總表及速覽卡顯示 Banding 坊間參考，卡片顯示文件公開狀態；按校名或「詳細資料」可閱讀文件摘要、實際涵蓋期間、原文連結、頁碼／章節，以及版本選取依據。搜尋亦支援 Banding 和摘要關鍵字。
+
+26校都有可引用的坊間 Banding 資料，其中15校的來源標籤不一致，故逐項保留，不自行選定等級。Banding 原是學生的中一派位組別，這些學校標籤不是教育局評級，也不是入學保證。
+
+23校取得正式發展計劃全文；另外3校只有官方關注事項或計劃概覽，清楚標示不構成正式計劃全文摘要。仁濟醫院靚次伯紀念中學的最新公開文件是校方「3+3年」六學年計劃，按原文件期間標示，沒有改稱單一三年計劃。
+
+6校取得可讀的公開外評文件：4份全文、2份教育局公開總結章節。另外19校未找到可核讀的公開外評文件，1校找到相關來源但不能讀取，不提供推測摘要。未取得文件不代表學校沒有計劃或從未接受外評；「最新可讀公開版本」只指截至本次查核可取得的文件，不能保證未公開的新版本。外評反映所評核當時的情況，不作現時校際評分。
+
+全部原校情、收生資料、社交帳號及 `data/schools.csv` 保持不變。新資料獨立保存：
+
+```text
+assets/school-reviews.js             26校查核資料，window.SCHOOL_REVIEWS
+assets/school-review-ui.js           安全顯示Banding、文件狀態及摘要
+ data/school-reviews.json             完整來源、摘要、頁碼及版本依據
+ data/school-reviews.csv              新欄目獨立CSV，以school_id對應原表
+ tools/build_school_reviews.py        驗證並生成JSON、JS及CSV
+ tests/school-review-ui.test.cjs       顯示、來源連結及文字安全測試
+ tests/school-review-integration.test.cjs  表格、搜尋、卡片及詳情整合測試
+ tests/test_build_school_reviews.py    資料完整性與生成程式測試
+```
+
+新增資料通過26校身分比對及JSON／JS／CSV一致性檢查。全部35項Node測試及10項Python測試通過：
+
+```bash
+node --test tests/*.test.cjs
+python3 -B -m unittest discover -s tests -p 'test_build_school_reviews.py'
+
+# registry.json為原26校的id/name名單；results/每校檔名為id.json。
+# 程式在所有學校與來源檢查通過後才生成公開資料。
+python3 -B tools/build_school_reviews.py \
+  --registry registry.json --results-dir results --output .
+```
+
+Banding與文件逐條來源可在新JSON及學校詳情查看。制度說明參考[教育局中學派位資料](https://www.edb.gov.hk/tc/edu-system/primary-secondary/spa-systems/secondary-spa/general-info/index.html)及[教育局校外評核報告公開安排](https://www.edb.gov.hk/tc/sch-admin/sch-quality-assurance/reports/esr-report/index.html)。
